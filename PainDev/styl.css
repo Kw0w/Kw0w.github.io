@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: Helvetica;
+    
+}
+#logo {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#stopka {
+    clear: both;
+    text-align: center;
+
+}
+footer { 
+    clear: both;
+    text-align: center;
+}
+
+#main {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    width: 100%;
+    text-align: center;
+
+}
+#info {
+    margin: 200px;
+    padding: 60px;
+    width: 100%;
+    text-align: center;
+    
+}
+a:link , a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Brush Script MT', cursive;
+}
+#nav-bar {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+table {
+    border: 5px double whitesmoke;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    width: 99%;
+    
+    
+}
+
+td:hover {
+    background-color: aliceblue;
+}
+
+td {
+    padding: 25px;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+i {
+    color: yellow;
+}
+
+#navbar {
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    background-color: black;
+}
+
+#navbar {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+}

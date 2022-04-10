@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PainDev</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div id="logo">
+    <img src="./PainDevd.png" alt="logo" height="200px">
+    </div>
+    <div id="nav-bar">
+        <a href="./index.html"><i>BACK</i></a>
+        <a href="#stopka">PAINDEV FINDER</a>
+    </div>
+    <div id="navbar">
+        <a href="./index.html">BACK</a>
+        <a href="#stopka">PAINDEV FINDER</a>
+    </div>
+    <div class="info">
+        <h1>COMMING SOON OR NOT IDK</h1>
+    </div>
+    <div id="stopka">
+        <h1>FIND PainDev</h1>
+        <a href="https://twitter.com/Kw0wdev" target="_blank"><img src="./twitter.png" alt="twitter" width="75px"></a>
+        <a href="https://www.youtube.com/channel/UCnn10tGSyWmVdz3BfvtZdng" target="_blank"><img src="./yt.png" alt="yt" width="100px"></a>
+        <a href="mailto:nosense666777111@gmail.com"><img src="./Gmail_Logo_512px.png" alt="mail" width="75px"></a>
+        <a href="http://"><img src="./Digital-Patreon-Logo_White.png" alt="" target="_blank" width="75px"></a>
+        <a href="http://"><img src="./Discord-Logo-White.png" alt="discord" width="75px" target="_blank"></a>
+    </div>
+   <footer>
+    <p>&copy;PainDev 2022 <a href="https://twitter.com/Kw0wdev" target="_blank">Powered by <u>Kw0w</a></p>
+   </footer>
+   <script>
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+    }
+    </script>
+</body>
+</html>
