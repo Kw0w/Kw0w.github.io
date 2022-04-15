@@ -25,6 +25,7 @@ footer {
     padding-bottom: 65px;
     width: 100%;
     text-align: center;
+    overflow-x:auto;
 
 }
 #info {
