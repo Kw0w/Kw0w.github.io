@@ -7,21 +7,30 @@
     <title>PainDev</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="styl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="logo">
-    <img src="./PainDevd.png" alt="logo" height="200px">
-    </div>
-    <div id="nav-bar">
-        <a href="#info">ABOUT</a>
-        <a href="#main">GAMES</a>
-        <a href="#stopka">PAINDEV FINDER</a>
+    <img src="./logo_clone.png" alt="">
     </div>
     <div id="navbar">
         <a href="#logo">TOP</a>
         <a href="#main">GAMES</a>
         <a href="#stopka">PAINDEV FINDER</a>
     </div>
+    <div class="topnav">
+        <a href="#home" class="active"><img src="./logo_clone.png" alt="logo" height="50px"></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#info">ABOUT</a>
+            <a href="#main">GAMES</a>
+            <a href="#stopka">PAINDEV FINDER</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     <div class="info">
         <h1>About PainDev</h1>
         <p>PainDev is the worst indie game developer company on world. <br>
@@ -44,7 +53,7 @@
         <br>
         <table>
             <tr>
-            <td><iframe frameborder="0" src="https://itch.io/embed/1439834?border_width=0&amp;bg_color=161616&amp;fg_color=ffffff&amp;link_color=ddda9c" width="550" height="165"><a href="https://kw0w.itch.io/brki-dungeon-runnner">Börki: Dungeon Runnner by Kw0w</a></iframe> <br>
+            <td><iframe frameborder="0" src="https://itch.io/embed/1439834?linkback=true&amp;bg_color=193d3f&amp;fg_color=ffffff&amp;link_color=ffffff&amp;border_color=000000" width="552" height="167"><a href="https://kw0w.itch.io/brki-dungeon-runnner">Börki: Dungeon Runnner by Kw0w</a></iframe> <br>
                 <a href="https://play.google.com/store/apps/details?id=com.PainDev.DungeonRunner" target="_blank"><img src="./google-play-badge.png" alt="" width="50%"></a>
             </td>
             <td><img src="./dt.png" alt="" width="50%"> <br>
@@ -53,7 +62,7 @@
             </tr>
             <tr>
             <td><img src="./fsfs.png" alt="" width="50%"> <br>
-                <a href="https://play.google.com/store/apps/details?id=com.nordheim.com.unity.template.mobile2D" target="_blank"><img src="./google-play-badge.png" alt="" width="50%"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.PainDev.FlappySquare" target="_blank"><img src="./google-play-badge.png" alt="" width="50%"></a>
             </td>
             <td>
             </td>
@@ -64,12 +73,13 @@
         <h1>FIND PainDev</h1>
         <a href="https://twitter.com/Kw0wdev" target="_blank"><img src="./twitter.png" alt="twitter" width="75px"></a>
         <a href="https://www.youtube.com/channel/UCnn10tGSyWmVdz3BfvtZdng" target="_blank"><img src="./yt.png" alt="yt" width="100px"></a>
-        <a href="mailto:nosense666777111@gmail.com"><img src="./Gmail_Logo_512px.png" alt="mail" width="75px"></a>
+        <a href="mailto:nosense666777111@gmail.com"><img src="./logo_clone.png" alt="" height="75px"></a>
         <a href="http://"><img src="./Digital-Patreon-Logo_White.png" alt="" target="_blank" width="75px"></a>
         <a href="http://"><img src="./Discord-Logo-White.png" alt="discord" width="75px" target="_blank"></a>
     </div>
    <footer>
-    <p>&copy;PainDev 2022 <a href="https://twitter.com/Kw0wdev" target="_blank">Powered by <u>Kw0w</a></p>
+    <p>&copy;PainDev 2022 <a href="https://twitter.com/Kw0wdev" target="_blank">Powered by <u>Kw0w</a></p> <br>
+    <p>Google Play and the Google Play logo are trademarks of Google LLC.</p>
    </footer>
    <script>
     // When the user scrolls down 20px from the top of the document, slide down the navbar
@@ -82,6 +92,16 @@
         document.getElementById("navbar").style.top = "-50px";
       }
     }
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+        x.style.display = "none";
+        } else {
+            x.style.display = "block";
+               }
+        }   
+
+    
     </script>
 </body>
 </html>

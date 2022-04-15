@@ -1,7 +1,7 @@
 body {
-    background-color: black;
     color: whitesmoke;
     font-family: Helvetica;
+    background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
     
 }
 #logo {
@@ -37,6 +37,9 @@ a:link , a:visited {
     text-decoration: none;
     color: whitesmoke;
     font-family: 'Brush Script MT', cursive;
+    background-color: #00535b;
+    border-radius: 25px;
+    border: solid #006e40;
 }
 #nav-bar {
     text-align: center;
@@ -89,6 +92,7 @@ i {
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
     background-color: black;
+    background-image: linear-gradient(to right top,  #003657, #00535b);
 }
 
 #navbar {
@@ -96,3 +100,49 @@ i {
     font-size: 40px;
     letter-spacing: 5px;
 }
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
+    position: relative;
+    border-radius: 25px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 25px;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  
