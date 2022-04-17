@@ -20,12 +20,12 @@ footer {
     text-align: center;
 }
 
-#main {
+#container {
     padding-top: 65px;
     padding-bottom: 65px;
     width: 100%;
     text-align: center;
-    overflow-x:auto;
+    
 
 }
 #info {
@@ -147,3 +147,38 @@ i {
     color: white;
   }
 
+#game1l, #game1r {
+    width: 50%;
+    float: left;
+}
+#game2l, #game2r {
+    width: 50%;
+    float: left;
+
+}
+
+#game3l, #game3r {
+    width: 50%;
+    float: left;
+}
+
+.rounded {
+    border: #003657;
+    width: 100%;
+    height: 15px;
+    background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
+}
+.solid {
+    border: #003657;
+    width: 100%;
+    height: 15px;
+    background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+    }
+}
