@@ -106,7 +106,6 @@ i {
     overflow: hidden;
     background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
     position: relative;
-    border-radius: 25px;
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -143,7 +142,6 @@ i {
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #04AA6D;
     color: white;
   }
 
@@ -175,4 +173,13 @@ i {
        flex-direction: column;
        width: 100%;
     }
+    .img {
+        width: 100%;
+        height: auto;
+    }
+    a {
+        width: 100%;
+        height: auto;
+    }
+
 }
