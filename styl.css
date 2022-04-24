@@ -173,7 +173,7 @@ i {
        flex-direction: column;
        width: 100%;
     }
-    .img {
+    img {
         width: 100%;
         height: auto;
     }
@@ -181,5 +181,10 @@ i {
         width: 100%;
         height: auto;
     }
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+    
 
 }
