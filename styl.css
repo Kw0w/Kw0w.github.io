@@ -160,6 +160,12 @@ i {
     float: left;
 }
 
+#game4l, #game4r {
+    width: 50%;
+    float: left;
+}
+
+
 .rounded {
     border: #003657;
     width: 100%;
