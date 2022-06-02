@@ -1,7 +1,7 @@
 body {
     color: whitesmoke;
     font-family: Helvetica;
-    background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
+    background-image: linear-gradient(to right top, #1c1919, #191617, #161415, #131113, #0e0d10, #0c0c10, #090c10, #060b0f, #050e11, #041013, #041213, #041413);
     overflow-x: hidden; /* Hide horizontal scrollbar */
     
 }
@@ -39,9 +39,9 @@ a:link , a:visited {
     text-decoration: none;
     color: whitesmoke;
     font-family: 'Brush Script MT', cursive;
-    background-color: #00535b;
+    background-image: linear-gradient(to right top, #1c1919, #191617, #161415, #131113, #0e0d10, #0c0c10, #090c10, #060b0f, #050e11, #041013, #041213, #041413);
     border-radius: 25px;
-    border: solid #006e40;
+    border: solid #001d11;
 }
 #nav-bar {
     text-align: center;
@@ -92,7 +92,7 @@ i {
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
     background-color: black;
-    background-image: linear-gradient(to right top,  #003657, #00535b);
+    background-image: linear-gradient(to right top, #1c1919, #191617, #161415, #131113, #0e0d10, #0c0c10, #090c10, #060b0f, #050e11, #041013, #041213, #041413);
 }
 
 #navbar {
@@ -104,7 +104,7 @@ i {
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
-    background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
+    background-image: linear-gradient(to right top, #1c1919, #191617, #161415, #131113, #0e0d10, #0c0c10, #090c10, #060b0f, #050e11, #041013, #041213, #041413);
     position: relative;
   }
   
@@ -121,12 +121,12 @@ i {
     text-decoration: none;
     font-size: 17px;
     display: block;
-    background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
+    background-image: linear-gradient(to right top, #1c1919, #191617, #161415, #131113, #0e0d10, #0c0c10, #090c10, #060b0f, #050e11, #041013, #041213, #041413);
   }
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
+    background-image: linear-gradient(to right top, #1c1919, #191617, #161415, #131113, #0e0d10, #0c0c10, #090c10, #060b0f, #050e11, #041013, #041213, #041413);
     display: block;
     position: absolute;
     right: 0;
@@ -175,7 +175,7 @@ i {
     border: #003657;
     width: 100%;
     height: 15px;
-    background-image: linear-gradient(to right top, #051937, #003657, #00535b, #006e40);
+    background-image: linear-gradient(to right top, #1c1919, #191617, #161415, #131113, #0e0d10, #0c0c10, #090c10, #060b0f, #050e11, #041013, #041213, #041413);
 }
 
 @media screen and (max-width: 600px) {
