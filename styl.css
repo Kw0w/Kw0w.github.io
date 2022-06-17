@@ -5,16 +5,19 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
     
 }
+
 #logo {
     text-align: center;
     margin: 0;
     padding: 0;
 }
+
 #stopka {
     clear: both;
     text-align: center;
 
 }
+
 footer { 
     clear: both;
     text-align: center;
@@ -28,6 +31,7 @@ footer {
     
 
 }
+
 #info {
     margin: 200px;
     padding: 60px;
@@ -35,6 +39,7 @@ footer {
     text-align: center;
     
 }
+
 a:link , a:visited {
     text-decoration: none;
     color: whitesmoke;
@@ -43,6 +48,7 @@ a:link , a:visited {
     border-radius: 25px;
     border: solid #001d11;
 }
+
 #nav-bar {
     text-align: center;
     font-size: 40px;
@@ -145,7 +151,7 @@ i {
     color: white;
   }
 
-#game1l, #game1r, #game2l, #game2r, #game3l, #game3r, #game4l, #game4r, #game5l, #game5r  {
+#game1l, #game1r, #game2l, #game2r, #game3l, #game3r, #game4l, #game4r, #game5l, #game5r, #game6l, #game6r  {
     width: 50%;
     float: left;
 }
