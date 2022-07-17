@@ -151,7 +151,7 @@ i {
     color: white;
   }
 
-#game1l, #game1r, #game2l, #game2r, #game3l, #game3r, #game4l, #game4r, #game5l, #game5r, #game6l, #game6r, #game7l, #game7r  {
+#game1l, #game1r, #game2l, #game2r, #game3l, #game3r, #game4l, #game4r, #game5l, #game5r, #game6l, #game6r, #game7l, #game7r, #game8l, #game8r  {
     width: 50%;
     float: left;
 }
