@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,85 +22,104 @@
     <!--NAVBAR-->
     <nav id="nav-bar">
       <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
+      <a href="#portfolio">Portfolio</a>
+      <!--<div class="dropdown">
+        <button class="dropbtn">Portfolio
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#front-end">Front-end</a>
+          <a href="#graphic-design">Graphic Desing</a>
+        </div>-->
     </nav>
     <main>
-        <!--ABOUT-->
+      <!--ABOUT-->
       <section id="about">
         <p>
           Hey I am... <br />
           <i>a beginning Front-end web developer and graphic designer</i>
         </p>
+        <!--ARROW TO NEXT SECTION-->
+      <div class="arrow_container">
+        <a href="#portfolio">
+          <div class="chevron"></div>
+          <div class="chevron"></div>
+          <div class="chevron"></div>
+        </a>
+      </div>
       </section>
       <!--PORFOLIO SECTIOn-->
       <section id="portfolio">
         <h2>Portfolio</h2>
         <!--FRONTEND-->
         <h4>Front-end Web Dev</h4>
-        <div class="portfolio-gallery">
-            <br>
-          <div>
-            <h3>Wolf Gallery</h3>
-            <a
-              href="./underPortfolio/WolfGallerySite/index.html"
-              target="_blank"
-              ><img
-                src="./underPortfolio/WolfGallerySite/Images/1.jpg"
-                alt="Wolf Gallery"
-            /></a>
-          </div>
-          <div>
-            <h3>Photgraphy Company</h3>
-            <a
-              href="./underPortfolio/PhotographySite/index.html"
-              target="_blank"
-              ><img
-                src="./underPortfolio/PhotographySite/Images/camera.jpg"
-                alt="Photgraphy Company"
-            /></a>
-          </div>
-          <div>
-            <h3>Documentation Example</h3>
-            <a
-              href="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/index.html"
-              target="_blank"
-              ><img
-                src="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/img_455072-3879362324"
-                alt="Documentation Example"
-            /></a>
-          </div>
-          <div>
-            <h3>Tribute Page</h3>
-            <a
-              href="./underPortfolio/FreeCodseCampCertificateProjects/TributePage/index.html"
-              target="_blank"
-              ><img
-                src="./underPortfolio/FreeCodseCampCertificateProjects/TributePage/temp-952449904"
-                alt="Tribute Page"
-            /></a>
-          </div>
-          <div>
-            <h3>Wolf Gallery</h3>
-            <a
-              href="./underPortfolio/WolfGallerySite/index.html"
-              target="_blank"
-              ><img
-                src="./underPortfolio/WolfGallerySite/Images/1.jpg"
-                alt="Wolf"
-            /></a>
-          </div>
-          <div>
-            <h3>Tribute Page v2</h3>
-            <a
-              href="./underPortfolio/BiographySite/index.html"
-              target="_blank"
-              ><img
-                src="./underPortfolio/BiographySite/images/Ernest-Hemingway_1936815b.jpg"
-                alt="Tribute Page"
-            /></a>
+        <div id="front-end">
+          <div class="portfolio-gallery">
+            <br />
+            <div>
+              <h3>Wolf Gallery</h3>
+              <a
+                href="./underPortfolio/WolfGallerySite/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/WolfGallerySite/Images/1.jpg"
+                  alt="Wolf Gallery"
+              /></a>
+            </div>
+            <div>
+              <h3>Photgraphy Company</h3>
+              <a
+                href="./underPortfolio/PhotographySite/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/PhotographySite/Images/camera.jpg"
+                  alt="Photgraphy Company"
+              /></a>
+            </div>
+            <div>
+              <h3>Documentation Example</h3>
+              <a
+                href="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/img_455072-3879362324"
+                  alt="Documentation Example"
+              /></a>
+            </div>
+            <div>
+              <h3>Tribute Page</h3>
+              <a
+                href="./underPortfolio/FreeCodseCampCertificateProjects/TributePage/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/FreeCodseCampCertificateProjects/TributePage/temp-952449904"
+                  alt="Tribute Page"
+              /></a>
+            </div>
+            <div>
+              <h3>Wolf Gallery</h3>
+              <a
+                href="./underPortfolio/WolfGallerySite/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/WolfGallerySite/Images/1.jpg"
+                  alt="Wolf"
+              /></a>
+            </div>
+            <div>
+              <h3>Tribute Page v2</h3>
+              <a
+                href="./underPortfolio/BiographySite/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/BiographySite/images/Ernest-Hemingway_1936815b.jpg"
+                  alt="Tribute Page"
+              /></a>
+            </div>
           </div>
         </div>
+        <div id="graphic-design"></div>
       </section>
     </main>
     <footer id="footer">
