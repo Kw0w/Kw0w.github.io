@@ -1,0 +1,40 @@
+/*BODY*/
+body {
+    font-family: Tahoma, sans-serif;
+    background-image: linear-gradient(to right top, #7a1825, #862748, #8a3c6b, #84538a, #7969a3, #6571a7, #5377a5, #477ca0, #3a738b, #366976, #365e62, #385351);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  /*MAIN*/
+  main {
+    text-align: center;
+  }
+  
+  /*FORM*/
+  form {
+    border: 4px solid #287199;
+    border-radius: 10%;
+    background-image: linear-gradient(to right top, #af4856, #ab456a, #a1477f, #8e4d92, #7255a2, #5860ab, #3969af, #0070ae, #0079a7, #00809c, #18858f, #408983);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  input {
+    margin-bottom: 10px;
+  }
+  
+  #submit {
+    background-color: #009ac9;
+    border: 5px solid #086d8c;
+    color: #c1c6c7;
+  }
+  
+  #submit:hover {
+    background-color: #2b85a1;
+    color: white;
+  }
+  

@@ -1,0 +1,54 @@
+/*BODY*/
+body {
+ background-image: linear-gradient(to right top, #004b87, #03508d, #065493, #0a599a, #0d5ea0, #0f63a8, #1169af, #136eb7, #1575c2, #167cce, #1884d9, #198be5);
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+/*MAIN*/
+#title {
+  text-align: center;
+}
+
+#image {
+   height: auto;
+   max-width: 100%;
+   display: block;
+   border-top: 7px solid #FFCD00;
+   border-bottom: 7px solid #FFCD00;
+   margin: 0 auto;
+}
+
+#tribute-info p {
+  border-top: 2px solid #FFCD00;
+  border-bottom: 2px solid #FFCD00;
+}
+
+#img-div {
+  justify-content: center;
+  width: 100%;
+}
+
+#tribute-info {
+  text-align: center;
+  margin: 5px 30px 5px 30px
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #FFCD00;
+  border: 5px solid #004B87;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: ceneter;
+}

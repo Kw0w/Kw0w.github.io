@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+  <h1 id="title">Survey</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <br>
+  <form id="survey-form">
+    <label id="name-label">Enter your name:
+    <input type="text" id="name" required placeholder="Enter your name">
+    </label>
+    <br>
+    <label id="email-label">Enter your email:
+    <input type="email" id="email" required placeholder="Enter your email">
+    </label>
+    <br>
+    <label id="number-label">Enter your age:
+    <input type="number" id="number" min="13" max="120" required placeholder="19">
+    </label>
+    <br>
+    <p>Do you like?</p>
+    <select id="dropdown">
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+    <br>
+    <input type="radio" id="blah" value="yesblahaj" name="blahaj">
+    <label for="blah">I like blahaj</label>
+    <input type="radio" id="blah" value="noblahaj" name="blahaj">
+    <label for="blah">I don't like blahaj</label>
+    <br>
+    <p>What food do you want?</p>
+    <label>Pizza
+    <input type="checkbox" value="pizza" name="food">
+    </label>
+    <label>Tortila
+    <input type="checkbox" value="tortilla" name="food">
+    </label>
+    <br>
+    <textarea placeholder="I don't like peoples..." cols="30" rows="7" id="comment"></textarea>
+    <br>
+    <input type="submit" id="submit">
+  </form>
+  <main>
+</body>
+</html>

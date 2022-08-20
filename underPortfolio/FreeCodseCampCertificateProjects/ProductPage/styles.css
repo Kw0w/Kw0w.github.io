@@ -1,0 +1,77 @@
+/*BODY*/
+body {
+    background-image: linear-gradient(to right top, #141a19, #151a1b, #161b1c, #181b1d, #1a1b1d, #1b1d1f, #1d1e21, #1e2023, #1e2327, #1e272a, #1d2a2c, #1e2e2d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  /*NAV-BAR/HEADER*/
+  
+  #header-img {
+    height: 200px;
+  }
+
+  #header {
+    height: 200px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  #nav-bar {
+      padding: 20px 10px;
+  }
+  
+  
+  #nav-bar a {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+    font-size: 22px;
+  }
+  
+  #nav-bar a:hover {
+    text-decoration: none;
+    color: aqua;
+  }
+  
+  /*MAIN*/
+  h2, h3 {
+    font-weight: 700;
+  }
+  
+  #offer {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #offer ul {
+    list-style: none;
+  }
+  
+
+  /*FOOTER*/
+  
+  footer {
+    text-align: center;
+    clear: both;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+       background-image: linear-gradient(to right top, #141a19, #151a1b, #161b1c, #181b1d, #1a1b1d, #1b1d1f, #1d1e21, #1e2023, #1e2327, #1e272a, #1d2a2c, #1e2e2d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+  }
+  

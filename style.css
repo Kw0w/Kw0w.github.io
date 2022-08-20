@@ -1,0 +1,116 @@
+/*BODY*/
+body {
+    background-image: linear-gradient(to right bottom, #3b3939, #383637, #353435, #323132, #2f2f30, #2f2f2f, #2e2e2f, #2e2e2e, #2f2f2f, #313131, #323232, #343434);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    
+}
+
+/*NAV*/
+#nav-bar {
+    background-image: linear-gradient(to left top, #272727, #272627, #272627, #272526, #272425, #262323, #252122, #242020, #221e1e, #201c1c, #1e1a1a, #1c1818);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    margin: -10px -10px 25px -10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    margin: 0 25px 10px 25px;
+}
+
+#nav-bar a:hover {
+    color: rgb(160, 205, 245);
+    border-right: 4px solid #107bb5;
+    border-left: 4px solid #107bb5;
+    font-size: 22px;
+    border-radius: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*MAIN*/
+main {
+    text-align: center;
+}
+
+#about {
+    width: 100%;
+    height: 90vh;
+    font-size: 40px;
+    padding-top: 200px;
+}
+
+.portfolio-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 20px 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: right;
+    gap: 16px;
+}
+
+.portfolio-gallery img {
+    width: 80%;
+    max-width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(151, 150, 150);
+}
+
+.portfolio-gallery div {
+    width: 80%;
+    max-width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(151, 150, 150);
+}
+
+.portfolio-gallery div:hover {
+    border: 6px solid whitesmoke;
+}
+
+#portfolio-gallery a {
+    color: white;
+    text-decoration: none;
+}
+
+#portfolio {
+    background-image: linear-gradient(to left top, #272727, #272627, #272627, #272526, #272425, #262323, #252122, #242020, #221e1e, #201c1c, #1e1a1a, #1c1818);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*FOOTER*/
+#footer {
+    text-align: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact a {
+    margin: 5px;
+}
+
+#contact a:hover {
+    color: #107bb5;
+}

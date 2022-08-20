@@ -1,0 +1,93 @@
+/*BODY*/
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #8c0013,
+    #a00e41,
+    #a62f6f,
+    #9e4f99,
+    #8b6cbc,
+    #707ece,
+    #4d8ed9,
+    #1b9ddd,
+    #00a5d7,
+    #00accb,
+    #00b1bb,
+    #00b5a8
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+/*HEADER*/
+header {
+  text-align: center;
+}
+/*MAIN*/
+main {
+  text-align: center;
+}
+
+form {
+  background-image: linear-gradient(
+    to right top,
+    #7a1825,
+    #862748,
+    #8a3c6b,
+    #84538a,
+    #7969a3,
+    #6571a7,
+    #5377a5,
+    #477ca0,
+    #3a738b,
+    #366976,
+    #365e62,
+    #385351
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  height: 500px;
+  border-radius: 25%;
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin: 10px auto;
+    padding: 0 10px 0 10px;
+}
+
+#survey {
+    width: 80%;
+    margin: auto;
+    border: 5px solid #6571a7;
+    border-radius: 25%;
+}
+
+#sub {
+    color: white;
+    background-color: #00a5d7;
+    border: 2px double #3a738b;
+    height: 25px;
+}
+
+#sub:hover {
+    color: #00a5d7;
+    background-color: #3a738b;
+    border: 2px double #63b7db;
+}
+
+/*FOOTER*/
+footer {
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+}

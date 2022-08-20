@@ -1,0 +1,95 @@
+/*BODY*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./Images/miti-qYreP9QOdrk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+}
+
+hr {
+    height: 1px;
+    color: rgb(104, 123, 139);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 134, 252);
+}
+
+/*NAV-BAR*/
+nav {
+    background-color: rgb(47, 48, 48, 60%);
+    margin-top: -50px;
+    padding: 60px 60px 60px 120px;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav a {
+    padding-left: 10px;
+}
+
+/*MAIN*/
+
+#about {
+    text-align: center;
+    padding: 0 100px 25px 100px;
+    background-color: rgb(47, 48, 48, 80%);
+    margin-top: -25px;
+}
+
+#find {
+    text-align: center;
+    background-color: rgb(47, 48, 48, 80%);
+    margin-top: -25px;
+}
+
+#products {
+    text-align: center;
+    background-color: rgb(47, 48, 48, 80%);
+    margin-top: -25px;
+}
+
+#careers {
+    text-align: center;
+    background-color: rgb(47, 48, 48, 80%);
+    margin-top: -25px;
+    background-image: url(./Images/ddp-CceG6jpl19M-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+    clear: both;
+    color: rgb(255, 255, 255);
+}
+
+#left, #right {
+    width: 50%;
+    float: left;
+}
+
+table {
+    border: 10px double black;
+}
+
+td, th {
+    border: 5px dotted black;
+}
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    width: 100%;
+}

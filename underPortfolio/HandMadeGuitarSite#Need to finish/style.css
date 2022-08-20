@@ -1,0 +1,27 @@
+/*BODY*/
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(to left bottom, #363636, #373637, #383638, #393538, #3b3537, #3a3234, #392f30, #382c2c, #342626, #301f1f, #2b1919, #271313);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/*TOP*/
+#nav-bar, #logo {
+    width: 50%;
+    float: left;
+    margin-bottom: 100px;
+}
+
+/*MAIN*/
+#info {
+    margin-left: 500px;
+    margin-right: 500px;
+    display: block;
+}
+
+/*FOOTER*/

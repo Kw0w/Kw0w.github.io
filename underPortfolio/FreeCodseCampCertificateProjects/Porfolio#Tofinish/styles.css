@@ -1,0 +1,95 @@
+/*BODY*/
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(to right top, #1d3771, #2c457e, #39538c, #476299, #5571a7, #5571a6, #5670a6, #5670a5, #496096, #3d5187, #314278, #253469);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  /*NAVBAR*/
+  #navbar {
+      float: left;
+      width: 100%;
+      margin-bottom: 100px;
+      text-align: left;
+      position: fixed;
+  }
+
+  #navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 25px;
+  }
+
+  #navbar a:hover {
+    color: #23528c;
+    border-bottom: 5px solid #23528c;
+    border-radius: 5px;
+  }
+  /*MAIN*/
+   
+  h1 {
+    font-size: 75px;
+  }
+
+   #welcome-section {
+    height: 1200px;
+   }
+  
+   #welcome {
+    font-size: 50px;
+   }
+
+  #contact a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #projects-section {
+    display: flexbox;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 20px 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #projects img {
+    width: 80%;
+    max-width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 3px solid #23528c;
+  }
+
+  #projects img:hover {
+    border: 6px solid whitesmoke;
+}
+
+  #contact a:hover {
+    color: #75a8e6;
+    border-bottom: 5px solid #23528c;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      width: 100%;
+    }
+  }
+  /*FOOTER*/
+
+  footer {
+    border-top: 10px solid #577ac7;
+    
+  }
+
+  #copyright {
+    margin-top: 100px;
+  }
