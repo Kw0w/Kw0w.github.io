@@ -13,14 +13,23 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="./script.js"></script>
+    <script src="./navbar.js"></script>
   </head>
   <body>
     <!--NAVBAR-->
-    <nav id="nav-bar">
-      <a href="#about">About</a>
+    <nav id="nav-bar" class="navbar">
+      <a href="#about" class="active">About</a>
       <a href="#contact">Contact</a>
       <a href="#portfolio">Portfolio</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      
       <!--<div class="dropdown">
         <button class="dropbtn">Portfolio
           <i class="fa fa-caret-down"></i>
@@ -38,89 +47,89 @@
           <i>a beginning Front-end web developer and graphic designer</i>
         </p>
         <!--ARROW TO NEXT SECTION-->
-        <br>
-        <br>
-      <div class="arrow_container">
-        <a href="#portfolio">
-          <div class="chevron"></div>
-          <div class="chevron"></div>
-          <div class="chevron"></div>
-        </a>
-      </div>
+        <br />
+        <br />
+        <div class="arrow_container">
+          <a href="#portfolio">
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+          </a>
+        </div>
       </section>
       <!--PORTFOLIO SECTIOn-->
       <div class="container reveal">
-      <section id="portfolio">
-        <h2>Portfolio</h2>
-        <!--FRONTEND-->
-        <h4>Front-end Web Dev</h4>
-        <div id="front-end">
-          <div class="portfolio-gallery">
-            <br />
-            <div>
-              <h3>Wolf Gallery</h3>
-              <a
-                href="./underPortfolio/WolfGallerySite/index.html"
-                target="_blank"
-                ><img
-                  src="./underPortfolio/WolfGallerySite/Images/1.jpg"
-                  alt="Wolf Gallery"
-              /></a>
-            </div>
-            <div>
-              <h3>Photography Company</h3>
-              <a
-                href="./underPortfolio/PhotographySite/index.html"
-                target="_blank"
-                ><img
-                  src="./underPortfolio/PhotographySite/Images/camera.jpg"
-                  alt="Photography Company"
-              /></a>
-            </div>
-            <div>
-              <h3>Documentation Example</h3>
-              <a
-                href="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/index.html"
-                target="_blank"
-                ><img
-                  src="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/img_455072-3879362324"
-                  alt="Documentation Example"
-              /></a>
-            </div>
-            <div>
-              <h3>Tribute Page</h3>
-              <a
-                href="./underPortfolio/FreeCodseCampCertificateProjects/TributePage/index.html"
-                target="_blank"
-                ><img
-                  src="./underPortfolio/FreeCodseCampCertificateProjects/TributePage/temp-952449904"
-                  alt="Tribute Page"
-              /></a>
-            </div>
-            <div>
-              <h3>Wolf Gallery</h3>
-              <a
-                href="./underPortfolio/WolfGallerySite/index.html"
-                target="_blank"
-                ><img
-                  src="./underPortfolio/WolfGallerySite/Images/1.jpg"
-                  alt="Wolf"
-              /></a>
-            </div>
-            <div>
-              <h3>Tribute Page v2</h3>
-              <a
-                href="./underPortfolio/BiographySite/index.html"
-                target="_blank"
-                ><img
-                  src="./underPortfolio/BiographySite/images/Ernest-Hemingway_1936815b.jpg"
-                  alt="Tribute Page"
-              /></a>
+        <section id="portfolio">
+          <h2>Portfolio</h2>
+          <!--FRONTEND-->
+          <h4>Front-end Web Dev</h4>
+          <div id="front-end">
+            <div class="portfolio-gallery">
+              <br />
+              <div>
+                <h3>Wolf Gallery</h3>
+                <a
+                  href="./underPortfolio/WolfGallerySite/index.html"
+                  target="_blank"
+                  ><img
+                    src="./underPortfolio/WolfGallerySite/Images/1.jpg"
+                    alt="Wolf Gallery"
+                /></a>
+              </div>
+              <div>
+                <h3>Photography Company</h3>
+                <a
+                  href="./underPortfolio/PhotographySite/index.html"
+                  target="_blank"
+                  ><img
+                    src="./underPortfolio/PhotographySite/Images/camera.jpg"
+                    alt="Photography Company"
+                /></a>
+              </div>
+              <div>
+                <h3>Documentation Example</h3>
+                <a
+                  href="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/index.html"
+                  target="_blank"
+                  ><img
+                    src="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/img_455072-3879362324"
+                    alt="Documentation Example"
+                /></a>
+              </div>
+              <div>
+                <h3>Tribute Page</h3>
+                <a
+                  href="./underPortfolio/FreeCodseCampCertificateProjects/TributePage/index.html"
+                  target="_blank"
+                  ><img
+                    src="./underPortfolio/FreeCodseCampCertificateProjects/TributePage/temp-952449904"
+                    alt="Tribute Page"
+                /></a>
+              </div>
+              <div>
+                <h3>Wolf Gallery</h3>
+                <a
+                  href="./underPortfolio/WolfGallerySite/index.html"
+                  target="_blank"
+                  ><img
+                    src="./underPortfolio/WolfGallerySite/Images/1.jpg"
+                    alt="Wolf"
+                /></a>
+              </div>
+              <div>
+                <h3>Tribute Page v2</h3>
+                <a
+                  href="./underPortfolio/BiographySite/index.html"
+                  target="_blank"
+                  ><img
+                    src="./underPortfolio/BiographySite/images/Ernest-Hemingway_1936815b.jpg"
+                    alt="Tribute Page"
+                /></a>
+              </div>
             </div>
           </div>
-        </div>
-        <div id="graphic-design"></div>
-      </section>
+          <div id="graphic-design"></div>
+        </section>
       </div>
     </main>
     <footer id="footer">
@@ -139,10 +148,7 @@
           href="www.linkedin.com/in/jakub-goch-99115b1a1
             "
           target="_blank"
-          ><img
-            src="./images/In-White-128@2x.png"
-            alt="linkedin"
-            height="80px"
+          ><img src="./images/In-White-128@2x.png" alt="linkedin" height="80px"
         /></a>
       </article>
       <p>&copy;Jakub Goch 2022</p>

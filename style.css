@@ -20,39 +20,46 @@ body {
   background-attachment: fixed;
   font-family: "Nunito", sans-serif;
   color: white;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 /*NAV*/
 #nav-bar {
   background-image: linear-gradient(
-    to left top,
-    #272727,
-    #272627,
-    #272627,
-    #272526,
-    #272425,
-    #262323,
-    #252122,
-    #242020,
-    #221e1e,
-    #201c1c,
-    #1e1a1a,
-    #1c1818
+    to right bottom,
+    #3b3939,
+    #383637,
+    #353435,
+    #323132,
+    #2f2f30,
+    #2f2f2f,
+    #2e2e2f,
+    #2e2e2e,
+    #2f2f2f,
+    #313131,
+    #323232,
+    #343434
   );
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: fixed;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
   width: 100%;
-  margin: -10px -10px 25px -10px;
-  display: flex;
-  justify-content: flex-end;
+  overflow: hidden;
 }
 
 #nav-bar a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   padding-bottom: 5px;
   padding-top: 25px;
   margin: 0 25px 10px 25px;
@@ -178,19 +185,19 @@ main {
 
 #portfolio {
   background-image: linear-gradient(
-    to left top,
-    #272727,
-    #272627,
-    #272627,
-    #272526,
-    #272425,
-    #262323,
-    #252122,
-    #242020,
-    #221e1e,
-    #201c1c,
-    #1e1a1a,
-    #1c1818
+    to right bottom,
+    #3b3939,
+    #383637,
+    #353435,
+    #323132,
+    #2f2f30,
+    #2f2f2f,
+    #2e2e2f,
+    #2e2e2e,
+    #2f2f2f,
+    #313131,
+    #323232,
+    #343434
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -296,3 +303,98 @@ main {
   opacity: 1;
 }
 
+/*MOBILE NAV BAR*/
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  #nav-bar {
+    background-image: linear-gradient(
+    to left top,
+    #272727,
+    #272627,
+    #272627,
+    #272526,
+    #272425,
+    #262323,
+    #252122,
+    #242020,
+    #221e1e,
+    #201c1c,
+    #1e1a1a,
+    #1c1818
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+  overflow: hidden;
+  text-align: right;
+  }
+
+  #portfolio {
+    background-image: linear-gradient(
+    to left top,
+    #272727,
+    #272627,
+    #272627,
+    #272526,
+    #272425,
+    #262323,
+    #252122,
+    #242020,
+    #221e1e,
+    #201c1c,
+    #1e1a1a,
+    #1c1818
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.navbar{
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
