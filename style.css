@@ -63,10 +63,7 @@ body {
 .dropbtn,
 .dropdown-content a:hover {
   color: rgb(160, 205, 245);
-  border-right: 4px solid #107bb5;
-  border-left: 4px solid #107bb5;
-  font-size: 25px;
-  border-radius: 10%;
+  border-bottom: 2px solid white;
   padding-left: 10px;
   padding-right: 10px;
 }
