@@ -1,0 +1,39 @@
+/*BODY*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: linear-gradient(to left bottom, #0d0d0d, #141415, #1a1a1b, #1f1f21, #242527, #242527, #232426, #232426, #1d1e1f, #171819, #111111, #070707);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*NAVBAR*/
+#nav-bar {
+    text-align: right;
+    margin-top: 25px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin: 25px;
+    padding-bottom: 10px;
+}
+
+#nav-bar a:hover {
+    border-bottom: 2px solid white;
+}
+
+/*MAIN*/
+#main {
+    text-align: center;
+    margin: 100px 500px 100px 500px;
+}
+/*FOOTER*/
+#footer {
+    text-align: center;
+    border-top: 2px solid #b9bf00;
+    padding-top: 50px;
+}
