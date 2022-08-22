@@ -12,6 +12,8 @@ body {
 #nav-bar {
     text-align: right;
     margin-top: 25px;
+    border-bottom: 2px solid #b9bf00;
+    padding-bottom: 25px;
 }
 
 #nav-bar a {
