@@ -1,0 +1,40 @@
+/*BODY*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #161616,
+    #151515,
+    #141415,
+    #131314,
+    #111213,
+    #111213,
+    #111213,
+    #111213,
+    #131314,
+    #141415,
+    #151515,
+    #161616
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*NAVBAR*/
+
+/*MAIN*/
+
+#about,
+#games,
+#overview {
+  height: 100vh;
+}
+
+/*FOOTER*/
