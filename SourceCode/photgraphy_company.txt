@@ -1,0 +1,447 @@
+==============================
+=============HTML/INDEX.html==
+==============================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weeding and birthday photography somewhere">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a007289085.js" crossorigin="anonymous"></script>
+    <title>Lorem Photography</title>
+</head>
+<body>
+    <!--Header-->
+    <header id="logo">
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./pricing.html">Pricing</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="blank">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main-->
+    <main>
+        <!--Section Left-->
+        <div id="left">
+            <h1>Birthday Photography</h1>
+            <img src="./Images/birthday.jpg" alt="birthday" width="50%">
+        </div>
+        <!--Section Right-->
+        <div id="right">
+            <h1>Weeding Photography</h1>
+            <img src="./Images/weeding.jpg" alt="weeding" width="50%">
+        </div>
+    </main>
+    <footer><p>&copy; Lorem Photography 2022</p>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    </footer>
+</body>
+</html>
+==============================
+=============HTML/ABOUT.html==
+==============================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weeding and birthday photography somewhere">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a007289085.js" crossorigin="anonymous"></script>
+    <title>Lorem Photography</title>
+</head>
+<body>
+    <!--Header-->
+        <div id="nav-bar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./pricing.html">Pricing</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="blank">Portfolio</a></li>
+            </ul>
+        </div>
+    <!--Main-->
+        <section id="about-right">
+            <h1>About Lorem Photography</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                A veritatis vero maxime quas nam excepturi magnam inventore
+                eligendi, sunt nobis expedita possimus dolor mollitia deserunt
+                beatae, culpa officia. Et quisquam id minus in alias, facilis 
+                molestias nihil aspernatur praesentium animi, rem quidem officia
+                earum iste libero repellendus eligendi maxime omnis mollitia atque
+                sapiente laboriosam. Facere optio corporis, nostrum veniam reiciendis
+                dolorum omnis a vel voluptatibus libero saepe ea debitis hic doloribus
+                praesentium beatae quod provident repudiandae consequatur. Eum laboriosam
+                in deleniti laborum dolores quisquam repellendus, sunt aliquid quibusdam soluta
+                qui quis dolorem at fugit esse quia sapiente hic. Doloribus sed laudantium eum, 
+                quasi aliquid maxime voluptatem velit ipsam quisquam voluptatum eius ut laborum 
+                fugiat sapiente laboriosam ratione est pariatur nam vero? Vero maxime iste inventore 
+                quas praesentium, ex neque repellendus aspernatur. Nemo, magnam quisquam esse, aut 
+                expedita ipsa, possimus ullam sunt at dolor tempore sit laudantium deserunt consequuntur
+                et accusamus suscipit cum ut unde voluptatem dolores asperiores. Aliquam porro facilis 
+                libero cupiditate earum, velit dolorem? Omnis hic nam asperiores esse, illo, eius quibusdam
+                dolor fugiat voluptates optio velit. Laboriosam similique fugiat perspiciatis hic quod? 
+                Cum saepe iste quo ut, doloribus sequi obcaecati sit omnis consequuntur similique nisi 
+                mollitia ipsam quos totam quas eum, recusandae provident illum laborum voluptatem minima
+                aliquid quod rem delectus. Repellat tempore ex vero dignissimos neque cum nulla, accusamus
+                sunt repellendus quam nostrum, ipsum consectetur deserunt aliquam commodi vel esse voluptates
+                voluptate qui deleniti temporibus repudiandae nihil. Deleniti doloribus, accusamus dolores 
+                suscipit commodi dicta nostrum sint, excepturi vel dignissimos dolor unde. Dolor tempore incidunt
+                dignissimos, dicta consectetur, laborum et culpa est quas quibusdam, error quis? Aspernatur rerum
+                ignissimos, qui illum laboriosam assumenda earum molestias commodi sunt possimus quasi, perferendis
+                cum, suscipit et odio numquam laborum ea tenetur rem totam unde ex! Temporibus maiores rerum provident
+                rem culpa id sequi nihil tempore, adipisci iste voluptas autem quos necessitatibus veniam quo dolor dolorem
+                animi commodi. Iusto veniam tempora porro aspernatur eum, hic laboriosam voluptas modi eos illum consectetur
+                accusamus perspiciatis reiciendis error aperiam veritatis. Quasi amet reiciendis eligendi perferendis esse quisquam
+                veniam laborum repellat est qui sequi, eaque fugiat commodi, sapiente adipisci, accusantium assumenda inventore nisi.
+                Quibusdam dolores autem explicabo distinctio excepturi nisi? Obcaecati quod dolor neque magni eaque quae minima beatae
+                temporibus saepe officia! Rem eaque aspernatur laborum ipsa labore optio perspiciatis minima corporis cum asperiores 
+                temporibus debitis accusantium, porro quasi ex explicabo incidunt, enim id quos vitae, beatae suscipit adipisci. 
+                Perspiciatis dolore impedit, nam quibusdam consequatur voluptatibus maxime, dolores aperiam laboriosam excepturi 
+                atque reiciendis animi eaque dignissimos tenetur repellat et ex error iste laudantium, facere hic. Similique assumenda,
+                laboriosam perferendis eos suscipit fugit saepe officiis sed enim incidunt voluptates ipsam unde vitae, itaque illo 
+                libero quaerat officia obcaecati omnis quo aliquid? Cupiditate nihil quae debitis tempore voluptatem reprehenderit 
+                quidem fuga soluta consequuntur, maiores cumque qui? Delectus a temporibus qui repudiandae cupiditate, ducimus 
+                voluptatum illum! Pariatur aperiam cumque voluptatem ab ipsam saepe molestias est unde reprehenderit, repellat 
+                magnam ut necessitatibus iste blanditiis dolorem perspiciatis laudantium nobis cum provident!
+            </p>
+        </section>
+        <section id="about-left">
+            <h1>About Lorem Photography</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                A veritatis vero maxime quas nam excepturi magnam inventore
+                eligendi, sunt nobis expedita possimus dolor mollitia deserunt
+                beatae, culpa officia. Et quisquam id minus in alias, facilis 
+                molestias nihil aspernatur praesentium animi, rem quidem officia
+                earum iste libero repellendus eligendi maxime omnis mollitia atque
+                sapiente laboriosam. Facere optio corporis, nostrum veniam reiciendis
+                dolorum omnis a vel voluptatibus libero saepe ea debitis hic doloribus
+                praesentium beatae quod provident repudiandae consequatur. Eum laboriosam
+                in deleniti laborum dolores quisquam repellendus, sunt aliquid quibusdam soluta
+                qui quis dolorem at fugit esse quia sapiente hic. Doloribus sed laudantium eum, 
+                quasi aliquid maxime voluptatem velit ipsam quisquam voluptatum eius ut laborum 
+                fugiat sapiente laboriosam ratione est pariatur nam vero? Vero maxime iste inventore 
+                quas praesentium, ex neque repellendus aspernatur. Nemo, magnam quisquam esse, aut 
+                expedita ipsa, possimus ullam sunt at dolor tempore sit laudantium deserunt consequuntur
+                et accusamus suscipit cum ut unde voluptatem dolores asperiores. Aliquam porro facilis 
+                libero cupiditate earum, velit dolorem? Omnis hic nam asperiores esse, illo, eius quibusdam
+                dolor fugiat voluptates optio velit. Laboriosam similique fugiat perspiciatis hic quod? 
+                Cum saepe iste quo ut, doloribus sequi obcaecati sit omnis consequuntur similique nisi 
+                mollitia ipsam quos totam quas eum, recusandae provident illum laborum voluptatem minima
+                aliquid quod rem delectus. Repellat tempore ex vero dignissimos neque cum nulla, accusamus
+                sunt repellendus quam nostrum, ipsum consectetur deserunt aliquam commodi vel esse voluptates
+                voluptate qui deleniti temporibus repudiandae nihil. Deleniti doloribus, accusamus dolores 
+                suscipit commodi dicta nostrum sint, excepturi vel dignissimos dolor unde. Dolor tempore incidunt
+                dignissimos, dicta consectetur, laborum et culpa est quas quibusdam, error quis? Aspernatur rerum
+                ignissimos, qui illum laboriosam assumenda earum molestias commodi sunt possimus quasi, perferendis
+                cum, suscipit et odio numquam laborum ea tenetur rem totam unde ex! Temporibus maiores rerum provident
+                rem culpa id sequi nihil tempore, adipisci iste voluptas autem quos necessitatibus veniam quo dolor dolorem
+                animi commodi. Iusto veniam tempora porro aspernatur eum, hic laboriosam voluptas modi eos illum consectetur
+                accusamus perspiciatis reiciendis error aperiam veritatis. Quasi amet reiciendis eligendi perferendis esse quisquam
+                veniam laborum repellat est qui sequi, eaque fugiat commodi, sapiente adipisci, accusantium assumenda inventore nisi.
+                Quibusdam dolores autem explicabo distinctio excepturi nisi? Obcaecati quod dolor neque magni eaque quae minima beatae
+                temporibus saepe officia! Rem eaque aspernatur laborum ipsa labore optio perspiciatis minima corporis cum asperiores 
+                temporibus debitis accusantium, porro quasi ex explicabo incidunt, enim id quos vitae, beatae suscipit adipisci. 
+                Perspiciatis dolore impedit, nam quibusdam consequatur voluptatibus maxime, dolores aperiam laboriosam excepturi 
+                atque reiciendis animi eaque dignissimos tenetur repellat et ex error iste laudantium, facere hic. Similique assumenda,
+                laboriosam perferendis eos suscipit fugit saepe officiis sed enim incidunt voluptates ipsam unde vitae, itaque illo 
+                libero quaerat officia obcaecati omnis quo aliquid? Cupiditate nihil quae debitis tempore voluptatem reprehenderit 
+                quidem fuga soluta consequuntur, maiores cumque qui? Delectus a temporibus qui repudiandae cupiditate, ducimus 
+                voluptatum illum! Pariatur aperiam cumque voluptatem ab ipsam saepe molestias est unde reprehenderit, repellat 
+                magnam ut necessitatibus iste blanditiis dolorem perspiciatis laudantium nobis cum provident!
+            </p>
+        </section>
+    <footer><p>&copy; Lorem Photography 2022</p>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    </footer>
+</body>
+</html>
+================================
+=============HTML/CONTACT.html==
+================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weeding and birthday photography somewhere">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a007289085.js" crossorigin="anonymous"></script>
+    <title>Lorem Photography</title>
+</head>
+<body>
+    <!--Header-->
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./pricing.html">Pricing</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="blank">Portfolio</a></li>
+            </ul>
+        </nav>
+    <!--Main-->
+    <div id="contact-main">
+        <h1>Contact</h1>
+        <h3>Contact Form</h3>
+        <ul>
+            <li>E-mail: example@example.com</li>
+            <li>Tel. +1 123-456-789</li>
+            <li>Personally at the office</li>
+        </ul>
+        <h2>Office Hours Work</h2>
+        <div id="open-hours">
+            <table>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr>
+                    <td>10:00am-17:00pm</td>
+                    <td>10:00am-17:00pm</td>
+                    <td>10:00am-17:00pm</td>
+                    <td>10:00am-17:00pm</td>
+                    <td>10:00am-17:00pm</td>
+                    <td>Closed</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
+        </div>
+        <h2>Office Address</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2156.5205662369194!2d15.295199316453473!3d57.281911880491066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x56d1217c46313f2!2zNTfCsDE2JzU0LjkiTiAxNcKwMTcnNTAuNiJF!5e0!3m2!1sen!2spl!4v1659954863586!5m2!1sen!2spl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer><p>&copy; Lorem Photography 2022</p>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    </footer>
+</body>
+</html>
+================================
+=============HTML/PRICING.html==
+================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weeding and birthday photography somewhere">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a007289085.js" crossorigin="anonymous"></script>
+    <title>Lorem Photography</title>
+</head>
+<body>
+    <!--Header-->
+        <div id="nav-bar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./pricing.html">Pricing</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="blank">Portfolio</a></li>
+            </ul>
+        </div>
+        <!--Section Left-->
+        <div id="birthday">
+            <h1>Birthday Pricing</h1>
+            <table>
+                <tr>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                </tr>
+                <tr>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Closed</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
+        </div>
+        <!--Section Right-->
+        <div id="weeding">
+            <h1>Weeding Pricing</h1>
+            <table>
+                <tr>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                    <th>Lorem.</th>
+                </tr>
+                <tr>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                </tr>
+            </table>
+        </div>
+    <footer><p>&copy; Lorem Photography 2022</p>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    </footer>
+</body>
+</html>
+
+==============================
+=============CSS==============
+==============================
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./Images/camera.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    color: white;
+    font-size: 20px;
+}
+
+
+#nav-bar {
+    padding-top: 50px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+#nav-bar ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    float: left;
+}
+li a:hover {
+    background-color: #93bbd3;
+    border-radius: 45%;
+}
+
+main {
+    margin-top: 50px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 18px;
+    margin: -20px;
+    height: 200px;
+    padding-top: 100px;
+    color: white;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+}
+
+#left, #right {
+    float: left; 
+}
+
+main li {
+    text-align: center;
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+footer a:hover {
+   color: #93bbd3;
+}
+
+
+#about-right, #about-left {
+    width: 50%;
+    float: left;
+}
+
+table {
+    width: 100%;
+    border: 3px dotted rgb(155, 147, 147);
+    overflow-x:visible;
+}
+
+td, th {
+    border: 3px dotted rgb(155, 147, 147);
+    text-align: center;
+}
+
+#contact-main {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+#birthday, #weeding {
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}

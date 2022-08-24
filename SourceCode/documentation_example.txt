@@ -1,0 +1,220 @@
+==============================
+=============HTML=============
+==============================
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"  crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav id="navbar">
+      <header><h1>Introduction To HTML</h1></header>
+       <a href="#Introduction" class="nav-link">Introduction</a>
+       <a href="#Example" class="nav-link">Example</a>
+       <a href="#Element" class="nav-link">Element</a>
+       <a href="#Hello_World" class="nav-link">Hello World</a>
+       <a href="#HTML_History" class="nav-link">HTML History</a>
+    </nav>
+    <main id="main-doc">
+      <!--Introduction-->
+      <section class="main-section" id="Introduction">
+        <header><h2>Introduction</h2></header>
+          <hr>
+          
+          <p>HTML is the standard markup language for creating Web pages.</p>
+          <ul>
+            <li>HTML is the standard markup language for creating Web pages</li>
+            <li>HTML describes the structure of a Web page</li>
+            <li>HTML consists of a series of elements</li>
+            <li>HTML elements tell the browser how to display the content</li>
+            <li>HTML elements label pieces of content such as "this is a heading",<br> "this is a paragraph", "this is a link", etc.
+         </li>
+          </ul>
+          <code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+
+      </section>
+      <!--Example-->
+      <section id="Example" class="main-section">
+        <header><h2>Example</h2></header>
+          <hr>
+          <h3>Example of HTML document</h3>
+          <div id="html-example">
+          <p>&lt;!DOCTYPE html&gt; <br>
+             &lt;html&gt; <br>
+             &lt;head&gt; <br>
+             &lt;title>Page Title&lt;/title&gt; <br>
+             &lt;/head><br>
+             &lt;body><br>
+             &lt;h1>My First Heading&lt;/h1&gt;<br>
+             &lt;p>My first paragraph.&lt;/p&gt;><br>
+             &lt;/body&gt;<br>
+             &lt;/html&gt;</p>
+          <h3>Example Explained</h3>
+          <p>
+The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document <br>
+The &lt;html&gt;element is the root element of an HTML page <br>
+The &lt;head&gt; element contains meta information about the HTML page<br>
+The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)<br>
+The &lt;body&gt; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.<br>
+The &lt;h1&gt;element defines a large heading<br>
+The &lt;p&gt; element defines a paragraph<br></p>
+          
+          </div>
+          <code>
+          x = 5;<br>
+          y = 6;<br>
+          z = x + y;
+          </code>
+      </section>
+      <!--Element-->
+      <section id="Element" class="main-section">
+        <header><h2>Element</h2></header>
+          <hr>
+          <p>An HTML element is defined by a start tag, some content, and an end tag:
+
+            &lt;tagname> Content goes here... &lt;/tagname&gt;<br>
+The HTML element is everything from the start tag to the end tag:
+
+&lt;h1>My First Heading&lt;/h1&gt;<br>
+&lt;p>My first paragraph.&lt;/p&gt;<br> 
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+      </section>
+      <!--HELLOWORLD-->
+      <section id="Hello_World" class="main-section">
+        <header><h2>Hello World</h2></header>
+          <hr>
+          <p>
+            &lt;!DOCTYPE html&gt; <br>
+            &lt;html&gt;<br>
+            &lt;head&gt;<br>
+            &lt;title>Page Title&lt;/title&gt;<br>
+            &lt;/head&gt;<br>
+            &lt;body&gt;<br>
+            &lt;h1>My First Heading&lt;/h1&gt;<br>
+            &lt;p>My first paragraph.&lt;/p&gt; <br>
+            &lt;/body&gt;<br>
+            &lt;/html&gt;
+          </p>
+         <code>
+         x = 5;<br>
+         y = 6;<br>
+         z = x + y;
+         </code>
+      </section>
+      <!--HTML HISTORY-->
+      <section id="HTML_History" class="main-section">
+        <header><h2>HTML History</h2></header>
+          <hr>
+          <br>
+          <p id="history">Year	Version
+<p><b><i>1989</i></b>	Tim Berners-Lee invented www</p>
+<p><b><i>1991</i></b>	Tim Berners-Lee invented HTML</p>
+<p><b><i>1993</i></b>	Dave Raggett drafted HTML+</p> 
+<p><b><i>1995</i></b>	HTML Working Group defined HTML 2.0</p>
+<p><b><i>1997</i></b>	W3C Recommendation: HTML 3.2</p> 
+<p><b><i>1999</i></b>	W3C Recommendation: HTML 4.01</p> 
+<p><b><i>2000</i></b>	W3C Recommendation: XHTML 1.0</p> 
+<p><b><i>2008</i></b>	WHATWG HTML5 First Public Draft</p> 
+<p><b><i>2012</i></b>	WHATWG HTML5 Living Standard</p> 
+<p><b><i>2014</i></b>	W3C Recommendation: HTML5</p> 
+<p><b><i>2016</i></b>	W3C Candidate Recommendation: HTML 5.1</p> 
+<p><b><i>2017</i></b>	W3C Recommendation: HTML5.1 2nd Edition</p>
+<p><b><i>2017</i></b>	W3C Recommendation: HTML5.2</p>
+       <code>
+        x = 5;
+        y = 6;
+        z = x + y;
+        </code>
+      </section>
+    </main>
+  </body>
+</html>
+
+==============================
+=============CSS==============
+==============================
+
+/*BODY*/
+body {
+    background-image: linear-gradient(to left bottom, #ffffff, #f4f4f4, #e9e9e9, #dedede, #d3d3d3);
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-size: 20px;
+      font-family: 'Nunito', sans-serif;
+      text-align: center;
+  }
+  
+  body h1, body h2, body h3 {
+    font-weight: bold;
+  }
+  
+  
+  
+  /*NAV*/
+  #navbar {
+    float: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  #navbar a{
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+    padding-bottom: 7px;
+  }
+  
+  #navbar a:hover {
+    color: #2e8abf;
+    border-bottom: 3px solid #2da0e3;
+    border-radius: 10%;
+  }
+  /*MAIN*/
+  
+  #HTML_History p:nth-child(even) {
+    background-color: #ededed;
+    border-bottom: 4px solid #bfbfbf;
+  }
+  
+  #HTML_History p:nth-child(odd) {
+    background-color: #cccbca;
+    border-bottom: 4px solid #919191;
+  }
+  
+  #HTML_History p {
+    margin-top: -15px;
+    padding-left: 30px
+  }
+  
+  #html-example p {
+    background-color: #e6e6e6;
+    padding-left: 30px
+  }
+  
+  @media (min-width: 768px) {
+    #what_is_html_info {
+      width: 100%;
+      margin: auto 0;
+    }
+  
+    #introduction ul {
+      list-style: none;
+    }
+  }

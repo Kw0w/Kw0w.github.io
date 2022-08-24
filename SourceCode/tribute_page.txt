@@ -1,0 +1,109 @@
+==============================
+=============HTML=============
+==============================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gustavus Adolphus Biography</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Gustavus Adolphus</h1>
+    <div id="img-div">
+      <img src="http://discerninghistory.com/wp-content/uploads/2014/04/temp.jpg" alt="gustavus adolphus" id="image">
+       <figcaption id="img-caption">
+         <p><b><i>Gustavus Adolphus</i></b> also known in English as Gustav II Adolf or Gustav II Adolph, was King of Sweden from 1611 to 1632, and is credited for the rise of Sweden as a great European power (Swedish: Stormaktstiden). During his reign, Sweden became one of the primary military forces in Europe during the Thirty Years' War, helping to determine the political and religious balance of power in Europe. He was formally and posthumously given the name Gustavus Adolphus the Great (Swedish: Gustav Adolf den store; Latin: Gustavus Adolphus Magnus) by the Riksdag of the Estates in 1634.</p>
+       </figcaption>
+    </div>
+    <section id="tribute-info">
+      <h3>Biography</h3>
+      <p>Gustavus Adolphus lead Sweden during her glory years in the Thirty Years War. However, Gustavus was also responsible for many domestic reforms which pushed Sweden from being just another Baltic state to being the most dominant power in the region. His achievements must surely have inspired Peter the Great to do the same for Russia.</p>
+
+<p>Gustavus Adolphus has been described by E N Williams as “the greatest Swedish King and one of the greatest statesman in European History”.</p>
+
+<p>Gustavus became king in 1611 and ruled until his death in battle in 1632.</p>
+
+<p>His parents were Charles IX and Christina of Holstein. Gustavus married Maria Eleonora, the daughter of Elector John Sigismund of Brandenburg. The marriage produced one daughter, Christina.</p>
+
+<p>Gustavus Adolphus became king of Sweden in 1611 when he was just 17. His youth could have been a major weakness as the nobility could have exploited this to their advantage. However, Gustavus had been tutored by Johan Skytte and he had ensured that the young prince had developed the necessary attributes when dealing with people.</p>
+
+<p>Gustavus was highly intelligent and well versed in the Classics, Law, History and Theology. He was fluent in German and spoke a number of foreign languages very well. From the age of 10 he had attended council meetings so by the age of 17 he had a formidable knowledge about affairs of state. He also had a natural ability to lead soldiers. He taught himself about the use of modern artillery, logistics, military organisation and strategy. He learned a great deal from Maurice of Nassau but Gustavus was also an innovator of change.</p>
+
+<p>Gustavus worked himself very hard; he was a deeply religious man and a good orator. To add to these attributes, he also had immense physical presence.</p>
+
+<p>In 1611, Sweden was a weak country both a home and abroad. As he was so young when he became king, the Riksrad (the chief council of the nobility) tried to re-assert itself as Charles IX had done a great deal to erode their power. In January 1611, Gustavus Adolphus was forced to accept the Accession Charter in which he agreed to give chief offices only to men from the high nobility and to conduct all his policies in consultation with the Riksrad.</p>
+
+<p>This humiliating experience for Gustavus did not usher in a period of noble control in Sweden. Gustavus’ reign is, in fact, characterised by the harmonious relationship Gustavus had with the nobility as was symbolised by the friendship he had with the leader of the high nobility, Axel Oxenstierna. The king also enjoyed popular support among the common people. They were represented in the Riksdag (the Diet) where they had the right to express their opinions, so issues like conscription did not cause instability.</p>
+
+<p>Gustavus Adolphus was a rarity in the Seventeenth Century – a powerful monarch supported by all sections of society. At home, Gustavus and Oxenstierna introduced major reforms which had a marked impact on Sweden.</p>
+   <a href="https://en.wikipedia.org/wiki/Gustavus_Adolphus" id="tribute-link" target="_blank">More Information</a>
+    </section>
+  </main>
+  <hr>
+  <footer>
+    <p>All information showed above come from <a href="https://en.wikipedia.org/wiki/Gustavus_Adolphus">Wikipedia</a> and <a href="https://www.britannica.com/biography/Gustav-II-Adolf">Britannica</a>.</p>
+  </footer>
+</body>
+</html>
+
+==============================
+=============CSS==============
+==============================
+/*BODY*/
+body {
+ background-image: linear-gradient(to right top, #004b87, #03508d, #065493, #0a599a, #0d5ea0, #0f63a8, #1169af, #136eb7, #1575c2, #167cce, #1884d9, #198be5);
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+/*MAIN*/
+#title {
+  text-align: center;
+}
+
+#image {
+   height: auto;
+   max-width: 100%;
+   display: block;
+   border-top: 7px solid #FFCD00;
+   border-bottom: 7px solid #FFCD00;
+   margin: 0 auto;
+}
+
+#tribute-info p {
+  border-top: 2px solid #FFCD00;
+  border-bottom: 2px solid #FFCD00;
+}
+
+#img-div {
+  justify-content: center;
+  width: 100%;
+}
+
+#tribute-info {
+  text-align: center;
+  margin: 5px 30px 5px 30px
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #FFCD00;
+  border: 5px solid #004B87;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: ceneter;
+}
