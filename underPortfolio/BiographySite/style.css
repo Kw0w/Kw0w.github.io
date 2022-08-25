@@ -1,74 +1,84 @@
 /*BODY*/
 body {
-    background-image: linear-gradient(to right top, #4084c2, #4a84c0, #5284bf, #5985bd, #6085bb, #5289bd, #448cbd, #338fbc, #0095b5, #0099a7, #009c93, #1d9d7b);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Nunito', sans-serif;
-    color: white;
-    font-weight: bold;
-    font-style: italic;
+  background-image: linear-gradient(
+    to left top,
+    #0c527f,
+    #204f77,
+    #2a4c70,
+    #304968,
+    #354661,
+    #354661,
+    #354661,
+    #354661,
+    #304968,
+    #2a4c70,
+    #204f77,
+    #0c527f
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
 }
 
 /*HEADER*/
 #title {
-    text-align: center;
+  text-align: center;
 }
 
 /*MAIN*/
 #img-div {
-    width: 100%;
+  width: 100%;
 }
 
 #image {
-   height: auto;
-   max-width: 100%;
-   display: block;
-   border: 10px solid #0bafe0;
-   margin: 0 auto;
-   padding: 12px;
-   background-color: #1a93a3;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  border: 10px solid #0c527f;
+  margin: 0 auto;
+  padding: 12px;
 }
 
 #img-caption {
-    text-align: center;
+  text-align: center;
 }
 
 main {
-    font-weight: normal;
-    font-style: normal;
-    text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
 }
 
 #biography-info {
-    width: 70%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 #biography-info p {
-    border-bottom: 5px solid #009c93;
-    margin-bottom: 10px;
-    padding: 5px 15px 15px 15px;
-    font-size: 20px;
+  border-bottom: 5px solid #0085ad;
+  margin-bottom: 10px;
+  padding: 5px 15px 15px 15px;
+  font-size: 20px;
 }
 
 /*FOOTER*/
 footer {
-    border-top: 5px solid #0085ad;
-    border-bottom: 5px solid #0085ad;
-    text-align: center;
+  text-align: center;
 }
 
 footer a {
-    text-decoration: none;
-    color: whitesmoke;
-    margin-left: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 20px;
 }
 
 footer a:hover {
-    color: white;
-    background-color: #0085ad;
-    border: 2px solid #18bff2;
-    padding: 10px;
-    border-radius: 40%;
+  color: white;
+  border: 2px solid #0085ad;
+  padding: 10px;
+  border-radius: 40%;
 }
