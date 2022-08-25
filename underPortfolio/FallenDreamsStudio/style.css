@@ -59,8 +59,25 @@ ul {
   );
   background-repeat: no-repeat;
   background-attachment: fixed;
-  position: fixed;
   width: 100%;
+  top: 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar ul {
+  display: flex;
+  margin-top: 50px;
+}
+
+#navbar a {
+  margin: 25px;
+  font-size: 20px;
+  padding-bottom: 7px;
 }
 
 #navbar,
@@ -85,6 +102,10 @@ ul {
   gap: 16px;
 }
 
+#games-gallery div {
+  border: 2px solid #2b2728;
+}
+
 #games-gallery img {
   width: 80%;
   max-width: 350px;
@@ -100,6 +121,11 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+#links {
+  margin: 25px;
+}
+
 /*FOOTER*/
 #footer {
   background-image: linear-gradient(
@@ -119,4 +145,10 @@ ul {
   );
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 200px;
+  padding-top: 50px;
+}
+
+#contact {
+  padding-top: 20px;
 }
