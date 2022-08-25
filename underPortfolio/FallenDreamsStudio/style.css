@@ -83,12 +83,31 @@ ul {
 #navbar,
 #logo {
   width: 50%;
+  float: left;
+  height: 200px;
+  background-image: linear-gradient(
+    to right bottom,
+    #2e2b2b,
+    #2b2728,
+    #272426,
+    #232124,
+    #1e1e21,
+    #1e1e21,
+    #1e1e21,
+    #1e1e21,
+    #232124,
+    #272426,
+    #2b2728,
+    #2e2b2b
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 /*MAIN*/
 
 #about {
   height: 100vh;
-  margin: 100px 500px 0 500px;
+  margin: 0 500px 0 500px;
 }
 
 #games-gallery {
@@ -122,8 +141,8 @@ ul {
   margin-inline-end: 0px;
 }
 
-#links {
-  margin: 25px;
+.links i{
+  margin: 10px 10px 3px 10px;
 }
 
 /*FOOTER*/
@@ -151,4 +170,28 @@ ul {
 
 #contact {
   padding-top: 20px;
+}
+
+/*REVEAL*/
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/*MOBILE NAVBAR*/
+
+/*MEDIA QUERY*/
+@media (max-width: 768px) {
+  #about {
+    height: 100vh;
+    margin: 200px 0 0 0;
+    padding-top: 200px;
+  }
 }
