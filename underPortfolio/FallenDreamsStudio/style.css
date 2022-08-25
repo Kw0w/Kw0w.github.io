@@ -24,14 +24,50 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
+body a {
+  color: white;
+  text-decoration: none;
+}
+
+body a:hover {
+  border-bottom: 2px solid white;
+}
+
+ul {
+  list-style: none;
+}
 /*NAVBAR*/
+#header-top {
+  background-image: linear-gradient(
+    to right bottom,
+    #2e2b2b,
+    #2b2728,
+    #272426,
+    #232124,
+    #1e1e21,
+    #1e1e21,
+    #1e1e21,
+    #1e1e21,
+    #232124,
+    #272426,
+    #2b2728,
+    #2e2b2b
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: fixed;
+  width: 100%;
+}
 
+#navbar,
+#logo {
+  width: 50%;
+}
 /*MAIN*/
-
 
 #about {
   height: 100vh;
@@ -39,25 +75,48 @@ body {
 }
 
 #games-gallery {
-  display: flexbox;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 20px 10px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 20px 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
-#games-gallery img{
+#games-gallery img {
   width: 80%;
   max-width: 350px;
   height: 350px;
   object-fit: cover;
   border-radius: 25px;
-  border: 3px solid rgb(151, 150, 150);
 }
 
+.game-info {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 /*FOOTER*/
 #footer {
+  background-image: linear-gradient(
+    to right bottom,
+    #2e2b2b,
+    #2b2728,
+    #272426,
+    #232124,
+    #1e1e21,
+    #1e1e21,
+    #1e1e21,
+    #1e1e21,
+    #232124,
+    #272426,
+    #2b2728,
+    #2e2b2b
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
