@@ -141,7 +141,7 @@ ul {
   margin-inline-end: 0px;
 }
 
-.links i{
+.links i {
   margin: 10px 10px 3px 10px;
 }
 
@@ -172,6 +172,11 @@ ul {
   padding-top: 20px;
 }
 
+#contact i {
+  margin: 5px;
+  height: 20px;
+}
+
 /*REVEAL*/
 .reveal {
   position: relative;
@@ -191,7 +196,7 @@ ul {
 @media (max-width: 768px) {
   #about {
     height: 100vh;
-    margin: 200px 0 0 0;
+    margin: 0;
     padding-top: 200px;
   }
 }
