@@ -247,6 +247,10 @@ main {
   height: 90px;
 }
 
+#fiverr img:hover {
+  height: 60px;
+}
+
 /*ARROW*/
 .arrow_container {
   position: relative;
