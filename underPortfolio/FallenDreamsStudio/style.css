@@ -60,7 +60,6 @@ ul {
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
-  top: 0;
 }
 
 #navbar {
@@ -107,7 +106,7 @@ ul {
 
 #about {
   height: 100vh;
-  margin: 0 500px 0 500px;
+  margin: 0px 500px 0 500px;
 }
 
 #games-gallery {
