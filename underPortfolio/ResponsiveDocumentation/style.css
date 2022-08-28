@@ -1,0 +1,19 @@
+/*BODY*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', 'Roboto', sans-serif;
+}
+/*NAVBAR*/
+
+/*MAIN*/
+
+/*FOOTER*/
+.fa-brands fa-github {
+    height: 175px;
+}
+/*MEDIAQUERY*/
