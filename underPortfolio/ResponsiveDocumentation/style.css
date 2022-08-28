@@ -1,19 +1,92 @@
 /*BODY*/
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Nunito', 'Roboto', sans-serif;
+  font-family: "Nunito", "Roboto", sans-serif;
 }
 /*NAVBAR*/
+#navbar {
+  position: fixed;
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 25px;
+}
+
+#navbar a:hover {
+  border-bottom: 2px solid #bbbfbc;
+}
+
+#navbar li {
+  margin: 10px;
+  list-style: none;
+}
 
 /*MAIN*/
+#main {
+  text-align: center;
+}
+
+#header {
+  font-size: 40px;
+}
+
+#main h2 {
+  font-size: 28px;
+}
+
+#main h3 {
+  font-size: 20px;
+}
+
+.code {
+  background-color: #ededed;
+  color: black;
+  margin: 25px 500px 0 500px;
+  border-bottom: 2px solid #bbbfbc;
+  padding-bottom: 10px;
+}
+
+.info {
+  margin: 25px 500px 0 500px;
+  border-bottom: 2px solid #bbbfbc;
+  padding-bottom: 10px;
+}
 
 /*FOOTER*/
-.fa-brands fa-github {
-    height: 175px;
-}
+
 /*MEDIAQUERY*/
+@media (max-width: 1200px) {
+  .code {
+    margin: 25px 0;
+  }
+
+  .info {
+    margin: 25px 0;
+  }
+}
+
+/*MOBILE UX/NAVABR*/
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar li:not(:first-child) {
+    display: none;
+  }
+  .navbar a.icon {
+    float: left;
+    display: block;
+  }
+
+  .navbar {
+    overflow: hidden;
+  }
+}
