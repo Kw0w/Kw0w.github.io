@@ -32,10 +32,12 @@
         <li><a href="#much_code">Much Code</a></li>
         <li><a href="#dummy">Dummy Text</a></li>
         <li><a href="#more_dummy_text">More Dummy Text</a></li>
+        <li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </li>
       </ul>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
     </nav>
     <!--MAIN-->
     <main id="main">
@@ -209,98 +211,97 @@
         <header><h2>Much Code</h2></header>
         <p class="code">
           <code>
-            #include &lt;iostream&gt;<br>
-                using namespace std;<br><br><br>
-                
-                int plusFuncInt(int x, int y) {<br>
-                  return x + y;br
-                }<br>
-                
-                double plusFuncDouble(double x, double y) {<br>
-                  return x + y;<br>
-                }<br>
-                
-                int main() {<br>
-                  int myNum1 = plusFuncInt(8, 5);<br>
-                  double myNum2 = plusFuncDouble(4.3, 6.26);<br>
-                  cout &lt;&lt; "Int: " &lt;&lt; myNum1 &lt;&lt; "\n";<br>
-                  cout &lt;&lt; "Double: " &lt;&lt; myNum2;<br>
-                  return 0;<br>
-                }       <br>         
+            #include &lt;iostream&gt;<br />
+            using namespace std;<br /><br /><br />
+
+            int plusFuncInt(int x, int y) {<br />
+            return x + y;br }<br />
+
+            double plusFuncDouble(double x, double y) {<br />
+            return x + y;<br />
+            }<br />
+
+            int main() {<br />
+            int myNum1 = plusFuncInt(8, 5);<br />
+            double myNum2 = plusFuncDouble(4.3, 6.26);<br />
+            cout &lt;&lt; "Int: " &lt;&lt; myNum1 &lt;&lt; "\n";<br />
+            cout &lt;&lt; "Double: " &lt;&lt; myNum2;<br />
+            return 0;<br />
+            } <br />
           </code>
-          <br>
+          <br />
           <code>
-            #include &lt;iostream&gt;<br>
-                #include &lt;string&gt;<br>
-                using namespace std;<br><br><br>
-                
-                // Base class <br>
-                class Animal {<br>
-                  public: <br>
-                    void animalSound() {<br>
-                      cout &lt;&lt; "The animal makes a sound \n" ;<br>
-                    }<br>
-                };<br>
-                
-                // Derived class <br>
-                class Pig : public Animal {<br>
-                  public:<br>
-                    void animalSound() {<br>
-                      cout &lt;&lt; "The pig says: wee wee \n" ;<br>
-                    }<br>
-                };<br>
-                
-                // Derived class<br>
-                class Dog : public Animal {<br>
-                  public:<br>
-                    void animalSound() {<br>
-                      cout &lt;&lt; "The dog says: bow wow \n" ;<br>
-                    }<br>
-                };<br>
-                
-                int main() {<br>
-                  Animal myAnimal;<br>
-                  Pig myPig;<br>
-                  Dog myDog;<br>
-                  <br>
-                  myAnimal.animalSound();<br>
-                  myPig.animalSound();<br>
-                  myDog.animalSound();<br>
-                  return 0;<br>
-                }    <br>            
+            #include &lt;iostream&gt;<br />
+            #include &lt;string&gt;<br />
+            using namespace std;<br /><br /><br />
+
+            // Base class <br />
+            class Animal {<br />
+            public: <br />
+            void animalSound() {<br />
+            cout &lt;&lt; "The animal makes a sound \n" ;<br />
+            }<br />
+            };<br />
+
+            // Derived class <br />
+            class Pig : public Animal {<br />
+            public:<br />
+            void animalSound() {<br />
+            cout &lt;&lt; "The pig says: wee wee \n" ;<br />
+            }<br />
+            };<br />
+
+            // Derived class<br />
+            class Dog : public Animal {<br />
+            public:<br />
+            void animalSound() {<br />
+            cout &lt;&lt; "The dog says: bow wow \n" ;<br />
+            }<br />
+            };<br />
+
+            int main() {<br />
+            Animal myAnimal;<br />
+            Pig myPig;<br />
+            Dog myDog;<br />
+            <br />
+            myAnimal.animalSound();<br />
+            myPig.animalSound();<br />
+            myDog.animalSound();<br />
+            return 0;<br />
+            } <br />
           </code>
           <code>
-            #include &lt;iostream&gt;<br>
-                #include &lt;fstream&gt;<br>
-                #include &lt;string&gt;<br>
-                using namespace std;<br><br><br>
-                
-                int main () {<br>
-                  // Create a text file<br>
-                  ofstream MyWriteFile("filename.txt");<br>
-                
-                  // Write to the file<br>
-                  MyWriteFile &lt;&lt; "Files can be tricky, but it is fun enough!";<br>
-                 
-                  // Close the file<br>
-                  MyWriteFile.close();<br>
-                
-                  // Create a text string, which is used to output the text file<br>
-                  string myText;<br>
-                
-                  // Read from the text file<br>
-                  ifstream MyReadFile("filename.txt");<br>
-                
-                  // Use a while loop together with the getline() function to read the file line by line
-                  while (getline (MyReadFile, myText)) {<br>
-                    // Output the text from the file<br>
-                    cout &lt;&lt; myText;<br>
-                  }<br>
-                  
-                  // Close the file<br>
-                  MyReadFile.close();<br>
-                }<br>
-                
+            #include &lt;iostream&gt;<br />
+            #include &lt;fstream&gt;<br />
+            #include &lt;string&gt;<br />
+            using namespace std;<br /><br /><br />
+
+            int main () {<br />
+            // Create a text file<br />
+            ofstream MyWriteFile("filename.txt");<br />
+
+            // Write to the file<br />
+            MyWriteFile &lt;&lt; "Files can be tricky, but it is fun
+            enough!";<br />
+
+            // Close the file<br />
+            MyWriteFile.close();<br />
+
+            // Create a text string, which is used to output the text file<br />
+            string myText;<br />
+
+            // Read from the text file<br />
+            ifstream MyReadFile("filename.txt");<br />
+
+            // Use a while loop together with the getline() function to read the
+            file line by line while (getline (MyReadFile, myText)) {<br />
+            // Output the text from the file<br />
+            cout &lt;&lt; myText;<br />
+            }<br />
+
+            // Close the file<br />
+            MyReadFile.close();<br />
+            }<br />
           </code>
         </p>
       </section>
@@ -810,7 +811,25 @@
     </main>
     <!--FOOTER-->
     <footer id="footer">
-      <a href="./page-two.html"><button class="next">Next Page</button></a>
+      <label for="back">
+        <input
+          type="button"
+          value="Back"
+          class="button"
+          name="back"
+          id="back"
+          onclick="window.location.href='./index.html'"
+        />
+      </label>
+      <label for="next">
+        <input
+          type="button"
+          value="Next Page"
+          class="button"
+          name="next"
+          id="next"
+        />
+      </label>
     </footer>
   </body>
 </html>

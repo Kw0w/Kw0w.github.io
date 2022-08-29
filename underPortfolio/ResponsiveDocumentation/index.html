@@ -32,10 +32,12 @@
         <li><a href="#hello_world">Hello World</a></li>
         <li><a href="#dummy">Dummy Text</a></li>
         <li><a href="#more_dummy_text">More Dummy Text</a></li>
+        <li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </li>
       </ul>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
     </nav>
     <!--MAIN-->
     <main id="main">
@@ -630,7 +632,16 @@
     </main>
     <!--FOOTER-->
     <footer id="footer">
-      <a href="./page-two.html"><button class="next">Next Page</button></a>
+      <label for="next">
+        <input
+          type="button"
+          value="Next Page"
+          class="button"
+          id="next"
+          name="next"
+          onclick="window.location.href='./page-two.html'"
+        />
+      </label>
     </footer>
   </body>
 </html>
