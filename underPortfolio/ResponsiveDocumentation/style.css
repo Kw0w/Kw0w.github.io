@@ -60,6 +60,21 @@ body {
 }
 
 /*FOOTER*/
+#footer {
+  text-align: center;
+}
+
+.next {
+  padding: 10px;
+  margin: 25px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.next:hover {
+  background-color: #bbbfbc;
+  border: 2px solid #b7c6c9;
+  border-radius: 5%;
+}
 
 /*MEDIAQUERY*/
 @media (max-width: 1200px) {
@@ -78,7 +93,7 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .navbar li:not(:first-child) {
+  .navbar li {
     display: none;
   }
   .navbar a.icon {
@@ -88,5 +103,19 @@ body {
 
   .navbar {
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
 }
