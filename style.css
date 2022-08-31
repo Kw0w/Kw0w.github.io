@@ -79,7 +79,7 @@ body {
 .dropdown:hover,
 .dropbtn,
 .dropdown-content a:hover {
-  color: rgb(160, 205, 245);
+  color: whitesmoke;
   border-bottom: 2px solid white;
   padding-left: 10px;
   padding-right: 10px;
