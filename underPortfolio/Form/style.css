@@ -1,0 +1,63 @@
+/*BODY*/
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  background-image: linear-gradient(
+    to left top,
+    #2e466e,
+    #39517c,
+    #435d89,
+    #4e6998,
+    #5975a6,
+    #5975a6,
+    #5975a6,
+    #5975a6,
+    #4e6998,
+    #435d89,
+    #39517c,
+    #2e466e
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+/*MAIN*/
+
+#question-form {
+  margin: 50px 200px 200px 200px;
+}
+
+#question-form input, #question-form label{
+  margin: 10px 4px 10px 0px;
+}
+
+.button {
+  box-shadow: inset 0px 0px 15px 3px #23395e;
+  background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+  background-color: #2e466e;
+  border-radius: 17px;
+  border: 1px solid #1f2f47;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  padding: 6px 13px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666;
+}
+.button:hover {
+  background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+  background-color: #415989;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
