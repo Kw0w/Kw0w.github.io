@@ -1,0 +1,111 @@
+/*BODY*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: consolas, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #1a1a1a,
+    #1c1c1c,
+    #1d1d1d,
+    #1f1f1f,
+    #212121,
+    #212121,
+    #212121,
+    #212121,
+    #1f1f1f,
+    #1d1d1d,
+    #1c1c1c,
+    #1a1a1a
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*MAIN*/
+
+#container {
+  background-color: #131313;
+  max-width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 35px;
+  border-radius: 10px;
+  user-select: none;
+}
+
+#display-area {
+  width: 100%;
+  margin: 3vh 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, minmax(40px, auto));
+  word-wrap: break-word;
+  padding-bottom: 20px;
+  border-bottom: 1px rgba(128, 128, 128, 0.116) solid;
+}
+
+#display-area .currentInput {
+  /*Display flex*/
+  text-align: right;
+  height: 8vh;
+  color: white;
+  font-size: xx-large;
+  line-height: 2;
+  word-wrap: break-word;
+}
+
+#display-area .answerScreen {
+  text-align: right;
+  color: rgba(150, 150, 150, 0.87);
+  height: 7px;
+  line-height: 3;
+  font-size: larger;
+}
+
+.keypad-btns {
+  display: grid;
+  grid: repeat(5, 70px) / repeat(4, 70px);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.keypad-btns button {
+  outline: none;
+  border: none;
+  border-radius: 122px;
+  background-color: #232543;
+  color: white;
+  font-size: x-large;
+}
+
+.keypad-btns .fun {
+  color: #000;
+  background-color: #00e6f6;
+  font-weight: bold;
+}
+
+.num:hover {
+  background-color: #282a3a;
+}
+
+.fun:hover {
+  background-color: #00c6d4;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    align-items: flex-start;
+  }
+}
