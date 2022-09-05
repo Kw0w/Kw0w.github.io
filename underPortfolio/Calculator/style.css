@@ -34,7 +34,7 @@ body {
 
 #container {
   background-color: #131313;
-  max-width: 300px;
+  max-width: 500px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -85,23 +85,23 @@ body {
   outline: none;
   border: none;
   border-radius: 122px;
-  background-color: #232543;
+  background-color: #003959;
   color: white;
   font-size: x-large;
 }
 
-.keypad-btns .fun {
+.keypad-btns .fun_btn {
   color: #000;
-  background-color: #00e6f6;
+  background-color: #284252;
   font-weight: bold;
 }
 
-.num:hover {
-  background-color: #282a3a;
+.num_btn:hover {
+  background-color: #024e7a;
 }
 
-.fun:hover {
-  background-color: #00c6d4;
+.fun_btn:hover {
+  background-color: #375769;
 }
 
 @media only screen and (max-width: 600px) {
