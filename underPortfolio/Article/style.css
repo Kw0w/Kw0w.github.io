@@ -39,3 +39,9 @@ body {
     border-top: 2px solid #b9bf00;
     padding-top: 50px;
 }
+
+@media (max-width: 1300px) {
+    #main {
+        margin: 100px 0 100px 0;
+    }
+}
