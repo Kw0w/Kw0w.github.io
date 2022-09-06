@@ -1,0 +1,67 @@
+/*BODY*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(
+    to right bottom,
+    #18547a,
+    #295d86,
+    #386691,
+    #47709d,
+    #5579a9,
+    #5579a9,
+    #5579a9,
+    #5579a9,
+    #47709d,
+    #386691,
+    #295d86,
+    #18547a
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/*MAIN*/
+#gameDiv {
+  border: 3px solid;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right bottom,
+    #327097,
+    #3c749e,
+    #4678a4,
+    #507cab,
+    #5a80b1,
+    #5a80b1,
+    #5a80b1,
+    #5a80b1,
+    #507cab,
+    #4678a4,
+    #3c749e,
+    #327097
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 500px 0;
+}
+
+.choiceBtn {
+  width: 150px;
+  line-height: 30px;
+  font-family: 'Nunito', sans-serif;
+}
+
+#playerText {
+  color: darkgreen;
+}
+
+#computerText {
+  color: lightcoral;
+}
