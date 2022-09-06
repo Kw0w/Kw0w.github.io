@@ -1,0 +1,107 @@
+/*BODY*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(
+    to left top,
+    #1e6b4d,
+    #207152,
+    #227856,
+    #257e5b,
+    #278560,
+    #278560,
+    #278560,
+    #278560,
+    #257e5b,
+    #227856,
+    #207152,
+    #1e6b4d
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 20px;
+  color: white;
+}
+
+/*NAVBAR*/
+#navbar {
+  background-image: linear-gradient(
+    to right bottom,
+    #1e6b4d,
+    #277556,
+    #2f7e5f,
+    #378868,
+    #3f9271,
+    #3f9271,
+    #3f9271,
+    #3f9271,
+    #378868,
+    #2f7e5f,
+    #277556,
+    #1e6b4d
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*MAIN*/
+#main {
+  text-align: center;
+}
+
+.right,
+.left {
+  width: 50%;
+  float: left;
+  border-right: 2px solid #4a9f7e;
+}
+
+.right {
+  padding: 200px 25px 100px 200px;
+}
+
+.left {
+  padding: 200px 200px 100px 25px;
+}
+
+.bottom {
+  padding: 200px 200px 100px 200px;
+}
+
+.bottom-contact {
+    padding: 200px 200px 0 200px;
+}
+
+.work-info {
+    margin: 50px;
+}
+
+.work-info li {
+    margin: 5px;
+}
+
+/*FOOTER*/
+#footer {
+  text-align: center;
+  font-weight: 500;
+  clear: both;
+  padding-top: 50px;
+}
+
+/*MEDIA QUERY*/
+@media (max-width: 1000px) {
+  .right,
+  .left,
+  .bottom {
+    padding: 200px 0 100px 0;
+  }
+  .bottom-contact {
+    padding: 200px 0  0 0;
+  }
+}
