@@ -228,6 +228,7 @@ main {
 /*FOOTER*/
 #footer {
   text-align: center;
+  border-top: 3px solid #3b3939;
 }
 
 #footer a {

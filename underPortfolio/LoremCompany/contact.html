@@ -14,19 +14,26 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <nav id="navbar">
-      <a href="./index.html">About</a>
+    <nav id="navbar" class="nav-bar">
+      <a href="./index.html" class="active">About</a>
       <a href="./offer.html">Offer</a>
       <a href="./contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </nav>
     <main id="main">
       <section id="contact">
         <h1>Contact</h1>
         <div class="right">
           <div class="work-info">
-          <h2>Lorem Office</h2>
+          <h2>Lorem Office 1</h2>
           <p class="info">
             <h3>Work Hours</h3>
             <ul id="work-hours">
@@ -47,7 +54,7 @@
         </div>
         <div class="left">
           <div class="work-info">
-          <h2>Lorem Office</h2>
+          <h2>Lorem Office 2</h2>
           <p class="info">
             <h3>Work Hours</h3>
             <ul id="work-hours">
@@ -67,7 +74,7 @@
           </p>
         </div>
         <div class="bottom-contact">
-          <h4>Lorem Office</h4>
+          <h4>Lorem Office 1</h4>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2264.279087837521!2d17.140255316416106!3d55.42292602485191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x47d6b73fc980f44a!2zNTXCsDI1JzIyLjUiTiAxN8KwMDgnMzIuOCJF!5e0!3m2!1sen!2spl!4v1662490593703!5m2!1sen!2spl"
             width="100%"
@@ -77,7 +84,7 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-          <h4>Lorem Office</h4>
+          <h4>Lorem Office 2</h4>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2264.279087837521!2d17.140255316416106!3d55.42292602485191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x47d6b73fc980f44a!2zNTXCsDI1JzIyLjUiTiAxN8KwMDgnMzIuOCJF!5e0!3m2!1sen!2spl!4v1662490593703!5m2!1sen!2spl"
             width="100%"
@@ -89,6 +96,7 @@
           ></iframe>
         </div>
       </section>
+      <script src="./navbar.js"></script>
     </main>
     <footer id="footer">
       <p>&copy;Lorem Company 2022</p>
