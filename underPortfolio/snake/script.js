@@ -4,10 +4,10 @@ const scoreText = document.querySelector("#scoreText");
 const resetBtn = document.querySelector("#resetBtn");
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
-const boardBackground = "#367d38";
+const boardBackground = "#1d6c4f";
 const snakeColor = "#118f54";
 const snakeBorder = "black";
-const foodColor = "red";
+const foodColor = "#f52757";
 const unitSize = 25;
 let running = false;
 let xVelocity = unitSize;
@@ -144,7 +144,7 @@ function checkGameOver() {
 };
 function displayGameOver() {
   ctx.font = "50px Nunito";
-  ctx.fillStyle = "black";
+  ctx.fillStyle = "whitesmoke";
   ctx.textAlign = "center";
   ctx.fillText("GAME OVER!", gameWidth / 2, gameHeight / 2);
   running = false;

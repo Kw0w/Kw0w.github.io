@@ -7,28 +7,52 @@
 
 body {
   font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #1f7149,
+    #1d6c4f,
+    #206652,
+    #276154,
+    #2e5b54,
+    #2e5b54,
+    #2e5b54,
+    #2e5b54,
+    #276154,
+    #206652,
+    #1d6c4f,
+    #1f7149
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: whitesmoke;
 }
 
 /*MAIN*/
 #gameContainer {
-    text-align: center;
-    padding-top: 200px;
-    margin: 0 auto;
+  text-align: center;
+  padding-top: 200px;
+  margin: 0 auto;
 }
 
-#gameBoard { 
-    border: 3px solid;
+#gameBoard {
+  border: 3px solid #338f6d;
 }
 
-#scoreText { 
-    font-size: 100px;
+#scoreText {
+  font-size: 100px;
 }
 
-#resetBtn { 
-    font-size: 22px;
-    width: 100px;
-    height: 50px;
-    border: 4px solid;
-    border-radius: 15px;
-    cursor: pointer;
+#resetBtn {
+  font-size: 22px;
+  width: 100px;
+  height: 50px;
+  border: 6px solid #6da892;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #4c8f85;
+  color: whitesmoke;
+}
+
+#resetBtn:hover {
+  background-color: #8ecfb7;
 }
