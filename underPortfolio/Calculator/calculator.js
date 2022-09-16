@@ -1,41 +1,154 @@
-let currentInput = document.querySelector(".currentInput");
-let answerScreen = document.querySelector(".answerScreen");
-let buttons = document.querySelectorAll("button");
-let erasebtn = document.querySelector("#erase");
-let clearbtn = document.querySelector("#clear");
-let evaluate = document.querySelector("#evaluate");
-let realTimeScreenValue = [];
+//Variables
+const numberButtons = document.querySelectorAll("[data-number]");
+const operationButtons = document.querySelectorAll("[data-operation]");
+const equalButton = document.querySelector("[data-equal]");
+const deleteButton = document.querySelector("[data-delete]");
+const allClearButton = document.querySelector("[data-all-clear]");
+const previousOperandTextElement = document.querySelector("[data-previous-operand]");
+const currentOperandTextElement = document.querySelector("[data-current-operand]");
 
-clearbtn.addEventListener("click", () => {
-  realTimeScreenValue = [""];
-  answerScreen.innerHTML = 0;
-  currentInput.className = "currentInput";
-  answerScreen.className = "answerScreen";
-  answerScreen.style.color = " rgba(150, 150, 150, 0.87)";
-  console.log("Click");
+class Calculator {
+    constructor(previousOperandTextElement, currentOperandTextElement) {
+        this.previousOperandTextElement = previousOperandTextElement;
+        this.currentOperandTextElement = currentOperandTextElement;
+        this.clear();
+    };
+
+    //Clear display
+    clear() {
+        this.currentOperand = "";
+        this.previousOperand = "";
+        this.operation = undefined;
+    };
+
+    //Delete last added number to display
+    delete() {
+        this.currentOperand = this.currentOperand.toString().slice(0, -1);
+    }
+
+    //Add number to display
+    appendNumber(number) {
+        if (number === "." && this.currentOperand.includes(".")) return;
+        this.currentOperand = this.currentOperand.toString() + number.toString();
+    };
+
+    //Add operation
+    chooseOperation(operation) {
+        if (this.currentOperand === "") return;
+        if (this.previousOperand !== "") {
+            this.compute();
+        }
+        this.operation = operation;
+        this.previousOperand = this.currentOperand;
+        this.currentOperand = "";
+    };
+
+    //Calc operation
+    compute() {
+        let computation;
+        const prev = parseFloat(this.previousOperand);
+        const current = parseFloat(this.currentOperand);
+
+        if (isNaN(prev) || isNaN(current)) return;
+        switch (this.operation) {
+            case "+":
+                computation = prev + current;
+                break;
+            case "-":
+                computation = prev - current;
+                break;
+            case "*":
+                computation = prev * current;
+                break;
+            case "/":
+                computation = prev / current;
+                break;
+            default:
+                return;
+        }
+        this.currentOperand = computation;
+        this.operation = undefined;
+        this.previousOperand = "";
+    };
+
+    // getDisplayNumber(number) {
+    //     const stringNumber = number.toString();
+    //     const integerDigits = parseFloat(stringNumber.split(".")[0]);
+    //     const decimalDigits = stringNumber.split(".")[1];
+    //     let integerDisplay;
+    //     if (isNan(integerDigits)) {
+    //         integerDisplay = "";
+    //     } else {
+    //         integerDisplay = integerDigits.toLocaleString("en", {
+    //             maximumFractionDigits: 0
+    //         });
+    //     }
+    //     if (decimalDigits != null) {
+    //         return `${integerDisplay}.${decimalDigits}`;
+    //     } else {
+    //         return integerDisplay;
+    //     }
+    // };
+
+    getDisplayNumber(number) {
+        const stringNumber = number.toString();
+        const integerDigits = parseFloat(stringNumber.split(".")[0]);
+        const decimalDigits = stringNumber.split(".")[1];
+        let integerDisplay;
+        if (isNaN(integerDigits)) {
+            integerDisplay = "";
+        } else {
+            integerDisplay = integerDigits.toLocaleString("en", {
+                maximumFractionDigits: 0
+            });
+        }
+        if (decimalDigits != null) {
+            return `${integerDisplay}.${decimalDigits}`;
+        } else {
+            return integerDisplay;
+        }
+    };
+
+    //Update display
+    updateDisplay() {
+        this.currentOperandTextElement.innerText =
+            this.getDisplayNumber(this.currentOperand)
+        if (this.operation != null) {
+            this.previousOperandTextElement.innerText =
+                `${this.getDisplayNumber(this.previousOperand)} ${this.operation}`
+        } else {
+            this.previousOperandTextElement.innerText = ''
+        }
+    }
+};
+
+const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement);
+
+numberButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        calculator.appendNumber(button.innerText);
+        calculator.updateDisplay();
+    });
 });
 
-buttons.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    if (!btn.id.match("erase")) {
-      realTimeScreenValue.push(btn.value);
-      currentInput.innerHTML = realTimeScreenValue.join("");
-      if (btn.classList.contains("num_btn")) {
-        answerScreen.innerHTML = eval(realTimeScreenValue.join(""));
-      }
-    }
-    if (btn.id.match("erase")) {
-      realTimeScreenValue.pop();
-      currentInput.innerHTML = realTimeScreenValue.join("");
-      answerScreen.innerHTML = eval(realTimeScreenValue.join(""));
-    }
-    if (btn.id.match("evaluate")) {
-      currentInput.className = "answerScreen";
-      answerScreen.className = "currentInput";
-      answerScreen,style.color = "white";
-    }
-    if (typeof eval(realTimeScreenValue.join("")) === "undefined") {
-      answerScreen.innerHTML = 0;
-    }
-  });
+operationButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        calculator.chooseOperation(button.innerText);
+        calculator.updateDisplay();
+    });
+});
+
+equalButton.addEventListener("click", button => {
+    calculator.compute();
+    calculator.updateDisplay();
+});
+
+allClearButton.addEventListener("click", button => {
+    calculator.clear();
+    calculator.updateDisplay();
+});
+
+deleteButton.addEventListener("click", button => {
+    calculator.delete();
+    calculator.updateDisplay();
 });
