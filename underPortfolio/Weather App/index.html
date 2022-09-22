@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="main">
+      <!--CARD-->
+      <div class="card">
+        <div class="search">
+          <input
+            type="text"
+            class="search-bar"
+            placeholder="Search"
+            autocomplete="off"
+          />
+          <button class="btn"><i class="ri-search-line"></i></button>
+        </div>
+        <div class="weather loading">
+          <h2 class="city">Hell Norway</h2>
+          <div class="temperature">11&#176;C</div>
+          <div class="flex">
+            <img src="" alt="" class="icon" />
+            <div class="description">Cloudy</div>
+          </div>
+          <div class="humidity">Humidity: 60%</div>
+          <div class="wind">Wind speed: 6.2km/h</div>
+        </div>
+      </div>
+    </section>
+    <!--SCRIPTS-->
+    <script src="./script.js" defer></script>
+  </body>
+</html>
