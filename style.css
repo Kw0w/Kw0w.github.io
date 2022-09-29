@@ -7,19 +7,19 @@
 /*BODY*/
 body {
   background-image: linear-gradient(
-    to right bottom,
-    #3b3939,
-    #383637,
-    #353435,
-    #323132,
-    #2f2f30,
-    #2f2f2f,
-    #2e2e2f,
-    #2e2e2e,
-    #2f2f2f,
-    #313131,
-    #323232,
-    #343434
+    to right top,
+    #2e3440,
+    #323845,
+    #363d4b,
+    #3a4150,
+    #3e4656,
+    #3e4656,
+    #3e4656,
+    #3e4656,
+    #3a4150,
+    #363d4b,
+    #323845,
+    #2e3440
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,19 +33,19 @@ body {
 /*NAV*/
 #nav-bar {
   background-image: linear-gradient(
-    to right bottom,
-    #3b3939,
-    #383637,
-    #353435,
-    #323132,
-    #2f2f30,
-    #2f2f2f,
-    #2e2e2f,
-    #2e2e2e,
-    #2f2f2f,
-    #313131,
-    #323232,
-    #343434
+    to right top,
+    #2e3440,
+    #323845,
+    #363d4b,
+    #3a4150,
+    #3e4656,
+    #3e4656,
+    #3e4656,
+    #3e4656,
+    #3a4150,
+    #363d4b,
+    #323845,
+    #2e3440
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,19 +109,19 @@ body {
   display: none;
   position: absolute;
   background-image: linear-gradient(
-    to left top,
-    #272727,
-    #272627,
-    #272627,
-    #272526,
-    #272425,
-    #262323,
-    #252122,
-    #242020,
-    #221e1e,
-    #201c1c,
-    #1e1a1a,
-    #1c1818
+    to right top,
+    #2e3440,
+    #323845,
+    #363d4b,
+    #3a4150,
+    #3e4656,
+    #3e4656,
+    #3e4656,
+    #3e4656,
+    #3a4150,
+    #363d4b,
+    #323845,
+    #2e3440
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -196,26 +196,26 @@ main {
 
 #portfolio {
   background-image: linear-gradient(
-    to right bottom,
-    #3b3939,
-    #383637,
-    #353435,
-    #323132,
-    #2f2f30,
-    #2f2f2f,
-    #2e2e2f,
-    #2e2e2e,
-    #2f2f2f,
-    #313131,
-    #323232,
-    #343434
+    to right top,
+    #2e3440,
+    #323845,
+    #363d4b,
+    #3a4150,
+    #3e4656,
+    #3e4656,
+    #3e4656,
+    #3e4656,
+    #3a4150,
+    #363d4b,
+    #323845,
+    #2e3440
   );
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.source-code a{
+.source-code a {
   text-decoration: none;
   color: white;
 }
@@ -228,7 +228,7 @@ main {
 /*FOOTER*/
 #footer {
   text-align: center;
-  border-top: 3px solid #3b3939;
+  border-top: 3px solid #434c5e;
 }
 
 #footer a {
@@ -340,7 +340,9 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
+  .navbar a:not(:first-child) {
+    display: none;
+  }
   .navbar a.icon {
     float: right;
     display: block;
@@ -348,60 +350,62 @@ main {
 
   #nav-bar {
     background-image: linear-gradient(
-    to left top,
-    #272727,
-    #272627,
-    #272627,
-    #272526,
-    #272425,
-    #262323,
-    #252122,
-    #242020,
-    #221e1e,
-    #201c1c,
-    #1e1a1a,
-    #1c1818
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: fixed;
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  width: 100%;
-  overflow: hidden;
-  text-align: right;
+      to right top,
+      #2e3440,
+      #303643,
+      #333946,
+      #353b4a,
+      #383e4d,
+      #383e4d,
+      #383e4d,
+      #383e4d,
+      #353b4a,
+      #333946,
+      #303643,
+      #2e3440
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    overflow: hidden;
+    text-align: right;
   }
 
   #portfolio {
     background-image: linear-gradient(
-    to left top,
-    #272727,
-    #272627,
-    #272627,
-    #272526,
-    #272425,
-    #262323,
-    #252122,
-    #242020,
-    #221e1e,
-    #201c1c,
-    #1e1a1a,
-    #1c1818
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+      to right top,
+      #2e3440,
+      #303643,
+      #333946,
+      #353b4a,
+      #383e4d,
+      #383e4d,
+      #383e4d,
+      #383e4d,
+      #353b4a,
+      #333946,
+      #303643,
+      #2e3440
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .navbar.responsive {position: relative;}
+  .navbar.responsive {
+    position: relative;
+  }
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
@@ -414,7 +418,7 @@ main {
   }
 }
 
-.navbar{
+.navbar {
   background-color: #333;
   overflow: hidden;
 }
@@ -428,4 +432,21 @@ main {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+/*SCROLL*/
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #252830;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3a3c49;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #696c80;
 }
