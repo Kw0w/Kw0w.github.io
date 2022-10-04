@@ -1,51 +1,52 @@
 /*BODY*/
 body {
-    background-image: url(./Images/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-    font-size: black-italic;
+  background-image: url(./Images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: black-italic;
 }
 
 /*HEADER*/
 header {
-    text-align: center;
+  text-align: center;
 }
 
 /*MAIN*/
 
 #gallery {
-    display: flexbox;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 20px 10px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+  display: flexbox;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 20px 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 #gallery img {
-    width: 80%;
-    max-width: 350px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 25px;
-    border: 3px solid rgb(151, 150, 150);
+  width: 80%;
+  max-width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 3px solid rgb(151, 150, 150);
+  transition: border 1s;
 }
 
 #gallery img:hover {
-    border: 6px solid whitesmoke;
+  border: 3px solid whitesmoke;
 }
 
 #gallery::after {
-    content: "";
-    width: 350px;
+  content: "";
+  width: 350px;
 }
 
 /*FOOTER*/
 footer {
-    text-align: center;
+  text-align: center;
 }
