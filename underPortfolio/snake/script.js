@@ -97,25 +97,30 @@ function changeDirection(event) {
   const up = 87;
   const down = 83;
 
+  const leftArrow = 37;
+  const rightArrow = 39;
+  const upArrow = 38;
+  const downArrow = 40;
+
   const goingUp = yVelocity === -unitSize;
   const goingDown = yVelocity === unitSize;
   const goingRight = xVelocity === unitSize;
   const goingLeft = xVelocity === -unitSize;
 
   switch (true) {
-    case keyPressed == left && !goingRight:
+    case keyPressed == left && !goingRight /*|| leftArrow && !goingRight*/:
       xVelocity = -unitSize;
       yVelocity = 0;
       break;
-    case keyPressed == up && !goingDown:
+    case keyPressed == up && !goingDown /*|| upArrow && !goingDown*/:
       xVelocity = 0;
       yVelocity = -unitSize;
       break;
-    case keyPressed == right && !goingLeft:
+    case keyPressed == right && !goingLeft /*|| rightArrow && !goingLeft*/:
       xVelocity = unitSize;
       yVelocity = 0;
       break;
-    case keyPressed == down && !goingUp:
+    case keyPressed == down && !goingUp /*|| downArrow && !goingUp*/:
       xVelocity = 0;
       yVelocity = unitSize;
       break;

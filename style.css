@@ -171,9 +171,9 @@ main {
   width: 80%;
   max-width: 350px;
   height: 350px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 25px;
-  border: 3px solid rgb(151, 150, 150);
+  border: 1rem solid #434c5e;
 }
 
 .portfolio-gallery div {
@@ -182,11 +182,12 @@ main {
   height: 500px;
   object-fit: cover;
   border-radius: 25px;
-  border: 3px solid rgb(151, 150, 150);
+  border: 3px solid #434c5e;
+  transition: border 1.5s;
 }
 
 .portfolio-gallery div:hover {
-  border: 6px solid whitesmoke;
+  border: 0.8rem solid #81a1c1;
 }
 
 #portfolio-gallery a {

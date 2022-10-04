@@ -32,7 +32,8 @@ body {
     #8a2430,
     #7a1825
   ); */
-  background-image: url("https://source.unsplash.com/1920x1024/?iceland");
+  /* background-image: url("https://source.unsplash.com/1920x1024/?iceland"); */
+  background-image: url(./connor-dugan-2l9BhKOvSNI-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
