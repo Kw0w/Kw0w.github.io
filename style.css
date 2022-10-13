@@ -245,14 +245,6 @@ main {
   color: #107bb5;
 }
 
-#contact img:hover {
-  height: 90px;
-}
-
-#fiverr img:hover {
-  height: 60px;
-}
-
 /*ARROW*/
 .arrow_container {
   position: relative;
