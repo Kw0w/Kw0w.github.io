@@ -83,7 +83,6 @@ body {
   border-bottom: 2px solid white;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 23px;
 }
 
 /* The dropdown container */
@@ -332,7 +331,7 @@ main {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .navbar a:not(:first-child) {
     display: none;
   }
@@ -395,7 +394,7 @@ main {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .navbar.responsive {
     position: relative;
   }
