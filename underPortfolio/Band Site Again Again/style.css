@@ -1,0 +1,317 @@
+:root {
+  --background-color-primary: black;
+  --background-color-alt: #10141d;
+  --font-color-primary: white;
+  --font-color-alt: #ff1444;
+}
+
+/*BODY*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Metal Mania", sans-serif;
+  background-color: var(--background-color-primary);
+  color: var(--font-color-primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color-primary);
+  transition: color 2s;
+}
+
+a:hover {
+  color: var(--font-color-alt);
+}
+
+li {
+  list-style: none;
+}
+/*NAVBAR*/
+#header {
+  background-color: var(--background-color-alt);
+  position: fixed;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding-right: 4rem;
+}
+
+.is-active {
+  color: var(--font-color-alt);
+}
+
+/*NAVBAR MOBILE*/
+.hamburger {
+  position: relative;
+  z-index: 100;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.hamburger,
+.close-icon {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 4rem;
+    left: 1rem;
+    padding: 1px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background: none;
+  }
+
+  .menu {
+    flex-direction: column;
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: var(--background-color-alt);
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .menu li {
+    padding-bottom: 3rem;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+}
+
+.fa-bars,
+.fa-xmark {
+  color: whitesmoke;
+}
+
+/*MAIN*/
+#main {
+  text-align: center;
+  padding-top: 200px;
+}
+
+#main section {
+  padding: 5rem;
+  margin-right: 700px;
+  margin-left: 700px;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 0 0 2rem #2a344b;
+  -moz-box-shadow: 0 0 2rem #2a344b;
+  box-shadow: 0 0 2rem #2a344b;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+#band img {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  max-width: 700px;
+}
+
+.band-list {
+  font-family: "Metal Mania", sans-serif;
+}
+
+#tour li {
+  margin: 1rem;
+}
+
+.gig-place {
+  color: var(--font-color-alt);
+}
+
+.section-title {
+  font-family: "Metal Mania", sans-serif;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+#discography img {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  max-width: 700px;
+}
+
+#discography div {
+  margin: 1rem;
+  -webkit-box-shadow: 0 0 2rem #2a344b;
+  -moz-box-shadow: 0 0 2rem #2a344b;
+  box-shadow: 0 0 2rem #2a344b;
+}
+
+#contact p {
+  margin: 1rem;
+}
+
+#gallery {
+  display: flexbox;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 20px 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#gallery img {
+  width: 80%;
+  max-width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 3px solid rgb(151, 150, 150);
+  transition: border 1s;
+}
+
+#gallery img:hover {
+  border: 3px solid whitesmoke;
+}
+
+#gallery::after {
+  content: "";
+  width: 350px;
+}
+/*FOOTER*/
+#footer {
+  text-align: center;
+  padding-top: 2rem;
+  background-color: var(--background-color-alt);
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-menu li {
+  margin: 1rem;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: var(--color-alt); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+/*MEDIAQUERY*/
+@media screen and (max-width: 2230px) {
+  #main section {
+    margin-right: 600px;
+    margin-left: 600px;
+  }
+}
+
+@media screen and (max-width: 1960px) {
+  #main section {
+    margin-right: 500px;
+    margin-left: 500px;
+  }
+
+  #band img,
+  #discography img {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 1720px) {
+  #main section {
+    margin-right: 300px;
+    margin-left: 300px;
+  }
+
+  #band img,
+  #discography img {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #main section {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+  #band img,
+  #discography img {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main section {
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 1rem;
+  }
+
+  #band img,
+  #discography img {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  #main section {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 1rem;
+  }
+
+  #band img,
+  #discography img {
+    max-width: 135px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-menu li {
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .footer-menu li {
+    margin: 0.3rem;
+  }
+}
