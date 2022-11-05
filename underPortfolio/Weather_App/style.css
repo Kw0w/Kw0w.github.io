@@ -1,0 +1,100 @@
+/*BODY*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: url(./Images/marita-kavelashvili-ugnrXk1129g-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/*MAIN*/
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgba(35, 101, 80, 0.28);
+  text-align: center;
+  padding: 6rem;
+  border-radius: 2rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 2px solid rgba(35, 101, 80, 0.4);
+  border-radius: 1rem;
+  background-color: rgba(35, 101, 80, 0.3);
+}
+
+.btn {
+  border-radius: 1rem;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  background-color: rgba(35, 101, 80, 0.1);
+  color: whitesmoke;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: rgba(35, 101, 80, 0.5);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.search-bar {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem;
+  color: whitesmoke;
+  background-color: rgba(35, 101, 80, 0.5);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  outline: none;
+}
+
+.search-bar:hover {
+  background-color: rgba(35, 101, 80, 0.3);
+  border: none;
+  transition: 0.4s ease-in-out;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading:after {
+  visibility: visible;
+  color: whitesmoke;
+  position: absolute;
+  top: 0;
+}

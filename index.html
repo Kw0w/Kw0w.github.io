@@ -6,271 +6,237 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Nunito:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
   <body>
     <!--NAVBAR-->
-    <nav id="nav-bar" class="navbar">
-        <a href="#about" class="active">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </ul>
-    </nav>
-    <main>
-      <!--ABOUT-->
+    <header id="header">
+      <navbar id="navbar">
+        <ul class="menu">
+          <li class="menu-item"><a href="#about">About</a></li>
+          <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="menu-item"><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger">
+          <i class="fa-solid fa-bars fa-2xl menu-icon"></i>
+          <i class="fa-solid fa-xmark fa-2xl close-icon"></i>
+        </button>
+      </navbar>
+    </header>
+    <!--MAIN-->
+    <main id="main">
       <section id="about">
-        <p>
-          Hey I am Jacob <br />
-          <i>a beginning Front-end web developer.</i>
+        <h2 class="section-title"></h2>
+        <p class="about-info">
+          <i
+            >Hey, I'm Jacob a beggining
+            <span class="info">front end developer</span></i
+          >.
         </p>
-        <!--ARROW TO NEXT SECTION-->
-        <br />
-        <br />
-        <div class="arrow_container">
-          <a href="#portfolio">
-            <div class="chevron"></div>
-            <div class="chevron"></div>
-            <div class="chevron"></div>
-          </a>
+        <br /><br /><br />
+        <div>
+          <a href="#portfolio" class="arrow"
+            ><i class="fa-solid fa-arrow-down fa-2xl"></i
+          ></a>
         </div>
       </section>
-      <!--PORTFOLIO SECTIOn-->
-      <div class="container reveal">
+      <div class="reveal">
+        <!--PORTFOLIO-->
         <section id="portfolio">
-          <h2>Portfolio</h2>
-          <!--FRONTEND-->
-          <h4>Front-end Web Dev</h4>
-          <div id="front-end">
-            <div class="portfolio-gallery">
+          <h2 class="section-title">Portfolio Projects</h2>
+          <div class="portfolio-container">
+            <!--PROJECTS-->
+            <div>
+              <h3>Wolf Gallery</h3>
               <br />
-              <div>
-                <h3>Wolf Gallery</h3>
-                <br>
-                <a
-                  href="./underPortfolio/WolfGallerySite/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/WolfGallerySite/Images/1.jpg"
-                    alt="Wolf Gallery"
-                /></a>  
-              </div>
-              <div>
-                <h3>Documentation Example</h3>
-                <br>
-                <a
-                  href="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/img_455072-3879362324"
-                    alt="Documentation Example"
-                /></a>
-              </div>
-              <div>
-                <h3>Calculator</h3>
-                <br>
-                <a
-                  href="./underPortfolio/Calculator/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/Calculator/Skärmklipp.PNG"
-                    alt="Calculator"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
-              <div>
-                <h3>Snake</h3>
-                <br>
-                <a
-                  href="./underPortfolio/snake/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/snake/Skärmklipp.PNG"
-                    alt="Snake"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
-              <div>
-                <h3>Blog Site</h3>
-                <br>
-                <a
-                  href="./underPortfolio/blog site/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/blog site/Skärmklipp.PNG"
-                    alt="Blog"
-                /></a>
-                <br><br>
-                <p class="source-code">Recreated from FreeCodeCamp Video</p>
-              </div>
-              <div>
-                <h3>Weather App</h3>
-                <br>
-                <a
-                  href="./underPortfolio/Weather App/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/Weather App/Images/Skärmklipp.PNG"
-                    alt="Weather"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
-              <div>
-                <h3>To Do List App</h3>
-                <br>
-                <a
-                  href="./underPortfolio/To-Do List App/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/To-Do List App/Skärmklipp.PNG"
-                    alt="To Do"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
-              <div>
-                <h3>Non Responsve Color Picker</h3>
-                <br>
-                <a
-                  href="./underPortfolio/Color Picker/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/Color Picker/Skärmklipp.PNG"
-                    alt="To Do"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
-              <div>
-                <h3>Room Sqr Area Calculator</h3>
-                <br>
-                <a
-                  href="./underPortfolio/sqr room calc/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/sqr room calc/Skärmklipp.PNG"
-                    alt="To Do"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
-              <div>
-                <h3>New Year calc</h3>
-                <br>
-                <a
-                  href="./underPortfolio/Final Countdown Timer/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/Final Countdown Timer/Skärmklipp.PNG"
-                    alt="To Do"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
-              <div>
-                <h3>Example Band Site</h3>
-                <br>
-                <a
-                  href="./underPortfolio/Band Site/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/Band Site/Skärmklipp.PNG"
-                    alt="To Do"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
-              <div>
-                <h3>Example Band Site Again</h3>
-                <br>
-                <a
-                  href="./underPortfolio/Band Site Again/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/Band Site Again/Skärmklipp.PNG"
-                    alt="To Do"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
-              <div>
-                <h3>Site</h3>
-                <br>
-                <a
-                  href="./underPortfolio/Next Band Site/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/Next Band Site/Skärmklipp.PNG"
-                    alt="To Do"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
-              <div>
-                <h3>Site</h3>
-                <br>
-                <a
-                  href="./underPortfolio/Band Site Again Again/index.html"
-                  target="_blank"
-                  ><img
-                    src="./underPortfolio/Band Site Again Again/Skärmklipp.PNG"
-                    alt="To Do"
-                /></a>
-                <br><br>
-                <!-- <p class="source-code"><a href="./SourceCode/tribute_page_v2.txt" target="_blank">Source Code</a></p> -->
-              </div>
+              <a
+                href="./underPortfolio/WolfGallerySite/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/WolfGallerySite/Images/1.jpg"
+                  alt="Wolf Gallery"
+              /></a>
             </div>
+            <div>
+              <h3>Documentation Example</h3>
+              <br />
+              <a
+                href="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/FreeCodseCampCertificateProjects/DocumentationSite/img_455072-3879362324"
+                  alt="Documentation Example"
+              /></a>
             </div>
+            <div>
+              <h3>Calculator</h3>
+              <br />
+              <a href="./underPortfolio/Calculator/index.html" target="_blank"
+                ><img
+                  src="./underPortfolio/Calculator/Skärmklipp.PNG"
+                  alt="Calculator"
+              /></a>
+              <br /><br />
+            </div>
+            <div>
+              <h3>Snake</h3>
+              <br />
+              <a href="./underPortfolio/snake/index.html" target="_blank"
+                ><img src="./underPortfolio/snake/Skärmklipp.PNG" alt="Snake"
+              /></a>
+              <br /><br />
+            </div>
+            <div>
+              <h3>Blog Site</h3>
+              <br />
+              <a href="./underPortfolio/blog_site/index.html" target="_blank"
+                ><img
+                  src="./underPortfolio/blog_site/Skärmklipp.PNG"
+                  alt="Blog"
+              /></a>
+              <br /><br />
+              <p class="source-code">Recreated from FreeCodeCamp Video</p>
+            </div>
+            <div>
+              <h3>Weather App</h3>
+              <br />
+              <a href="./underPortfolio/Weather_App/index.html" target="_blank"
+                ><img
+                  src="./underPortfolio/Weather_App/Images/Skärmklipp.PNG"
+                  alt="Weather"
+              /></a>
+              <br /><br />
+            </div>
+            <div>
+              <h3>To Do List App</h3>
+              <br />
+              <a
+                href="./underPortfolio/To-Do_List_App/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/To-Do_List_App/Skärmklipp.PNG"
+                  alt="To Do"
+              /></a>
+              <br /><br />
+            </div>
+            <div>
+              <h3>Non Responsve Color Picker</h3>
+              <br />
+              <a href="./underPortfolio/Color_Picker/index.html" target="_blank"
+                ><img
+                  src="./underPortfolio/Color_Picker/Skärmklipp.PNG"
+                  alt="To Do"
+              /></a>
+              <br /><br />
+            </div>
+            <div>
+              <h3>Room Sqr Area Calculator</h3>
+              <br />
+              <a
+                href="./underPortfolio/sqr_room_calc/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/sqr_room_calc/Skärmklipp.PNG"
+                  alt="To Do"
+              /></a>
+              <br /><br />
+            </div>
+            <div>
+              <h3>New Year calc</h3>
+              <br />
+              <a
+                href="./underPortfolio/Final_Countdown_Timer/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/Final_Countdown_Timer/Skärmklipp.PNG"
+                  alt="To Do"
+              /></a>
+              <br /><br />
+            </div>
+            <div>
+              <h3>Example Band Site</h3>
+              <br />
+              <a href="./underPortfolio/Band_Site/index.html" target="_blank"
+                ><img
+                  src="./underPortfolio/Band_Site/Skärmklipp.PNG"
+                  alt="To Do"
+              /></a>
+              <br /><br />
+            </div>
+            <div>
+              <h3>Example Band Site Again</h3>
+              <br />
+              <a
+                href="./underPortfolio/Band_Site_Again/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/Band_Site_Again/Skärmklipp.PNG"
+                  alt="To Do"
+              /></a>
+              <br /><br />
+            </div>
+            <div>
+              <h3>Site</h3>
+              <br />
+              <a
+                href="./underPortfolio/Next_Band_Site/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/Next_Band_Site/Skärmklipp.PNG"
+                  alt="To Do"
+              /></a>
+              <br /><br />
+            </div>
+            <div>
+              <h3>Site</h3>
+              <br />
+              <a
+                href="./underPortfolio/Band_Site_Again_Again/index.html"
+                target="_blank"
+                ><img
+                  src="./underPortfolio/Band_Site_Again_Again/Skärmklipp.PNG"
+                  alt="To Do"
+              /></a>
+              <br /><br />
+            </div>
+            <!--END OF PROJECTS-->
           </div>
-          <div id="graphic-design"></div>
+        </section>
+        <!--CONTACT-->
+        <section id="contact">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-links">
+            <ul class="contact-menu">
+              <li class="contact-item">
+                <a href="http://"><i class="fa-brands fa-github fa-6x"></i></a>
+              </li>
+              <li class="contact-item">
+                <a href="http://"><i class="fa-solid fa-envelope fa-6x"></i></a>
+              </li>
+              <li class="contact-item">
+                <a href="http://"
+                  ><i class="fa-brands fa-linkedin fa-6x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </section>
       </div>
     </main>
+    <!--FOOTER-->
     <footer id="footer">
-      <article id="contact">
-        <h2>Contact</h2>
-        <a href="mailto:Email: xk1335@gmail.com"
-          ><p>Email: xk1335@gmail.com</p></a
-        >
-        <br>
-        <a href="https://github.com/Kw0w" target="_blank"
-          ><img
-            src="./images/GitHub-Mark-Light-120px-plus.png"
-            alt="github"
-            height="80px"
-        /></a>
-        <a
-          href="https://www.linkedin.com/in/jakub-goch-99115b1a1"
-          target="_blank"
-          ><img src="./images/In-White-128@2x.png" alt="linkedin" height="80px"
-        /></a>
-        <br><br>
-        <div id="fiverr">
-        <a
-          href="https://www.fiverr.com/xk1335"
-          target="_blank"
-          ><img src="./images/Fiverr_white_291x87-78e6e1b021fff47f219bc50f8f5ad361.png" alt="fiverr" height="50px"
-        id="fiverr"/></a>
-      </div>
-      </article>
       <p>&copy;Jakub Goch 2022</p>
     </footer>
-    <!--SCRIPT-->
+    <!--SCRIPTS-->
+    <script
+      src="https://kit.fontawesome.com/a007289085.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./script.js"></script>
   </body>
 </html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Area</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Nunito:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--MAIN-->
+    <section id="main">
+      <h1 class="title">Room Area Calculator</h1>
+      <form action="#" id="form" data-name-form>
+        <label for="length">Enter room length in metres: </label>
+        <input
+          type="text"
+          id="length"
+          placeholder="Room length"
+          autocomplete="off"
+        />
+        <label for="width">Enter room width in metres: </label>
+        <input
+          type="text"
+          id="width"
+          placeholder="Room width"
+          autocomplete="off"
+        /><br />
+        <button id="btnSubmit" onclick="calcSqr()">Submit</button>
+        <button id="btnReset" onclick="myReset()">Reset</button>
+      </form>
+      <p id="result"></p>
+    </section>
+    <!--SCRIPTS-->
+    <script src="./script.js"></script>
+  </body>
+</html>

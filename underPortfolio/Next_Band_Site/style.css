@@ -1,0 +1,525 @@
+:root {
+  --background-color-primary: #000000;
+  --background-color-alt: #020509;
+  --font-color-primary: whitesmoke;
+  --font-color-alt: #f92b48;
+  --nice-color: #cd5a6a;
+}
+
+/*BODY*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Metal Mania", sans-serif;
+  font-weight: 400;
+  color: var(--font-color-primary);
+  background-color: var(--background-color-primary);
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--font-color-primary);
+  transition: color 1.3s;
+}
+
+a:hover {
+  color: var(--font-color-alt);
+}
+
+ul {
+  list-style: none;
+}
+
+/*NAVBAR*/
+#header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  margin: 2rem;
+  padding-right: 1rem;
+}
+
+.is-active {
+  color: var(--nice-color);
+}
+
+/*NAVBAR MOBILE*/
+.hamburger {
+  position: relative;
+  z-index: 100;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.hamburger,
+.logo {
+  display: none;
+}
+
+.fa-xmark {
+  display: none;
+}
+
+@media screen and (max-width: 1230px) {
+  .hamburger {
+    position: fixed;
+    z-index: 999;
+    top: 4rem;
+    left: 1rem;
+    padding: 1px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background: none;
+  }
+
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 888;
+    background: var(--primary-background-color);
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .menu li {
+    margin: 1.5rem;
+    padding-right: 1rem;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  .logo {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .menu li {
+    margin: 1rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .menu li {
+    margin: 0.6rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu li {
+    margin: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+.fa-bars,
+.fa-xmark {
+  color: whitesmoke;
+}
+
+/*MAIN*/
+#main {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 300px;
+  margin: 0 700px 0 700px;
+}
+
+#showcase {
+  height: 50vh;
+}
+
+#news {
+  float: left;
+  width: 50%;
+}
+
+#social-media {
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+#archive {
+  text-align: center;
+  clear: both;
+}
+
+.social-container img {
+  max-width: 500px;
+}
+
+.title-news {
+  padding-left: 3rem;
+  text-align: left;
+}
+
+.title-social-media {
+  padding-right: 0;
+  text-align: center;
+}
+
+.example-post-photo {
+  max-height: 140px;
+}
+
+#news-post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#news-post-container div {
+  margin: 0.8rem;
+}
+
+#tour {
+  text-align: left;
+  width: 50%;
+  float: left;
+}
+
+#past-tours {
+  text-align: right;
+  width: 50%;
+  float: left;
+}
+
+.past-tour-dates-element {
+  text-decoration: line-through;
+}
+
+.canceled {
+  text-decoration: line-through;
+}
+
+.cancel-info {
+  color: var(--font-color-alt);
+  margin: 1rem;
+  font-size: 1.1rem;
+  border-bottom: 2px solid var(--font-color-primary);
+}
+
+.show-place {
+  color: #cd5a6a;
+}
+
+.ticket-link {
+  border-bottom: 1px solid;
+}
+
+#contact {
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-container div {
+  margin: 1rem;
+}
+
+#band {
+  text-align: center;
+}
+
+#band img {
+  margin: 1rem;
+  max-height: 350px;
+}
+
+#find {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#find div {
+  margin: 1rem;
+}
+
+#find h3 {
+  margin: 1rem;
+}
+
+#info {
+  text-align: center;
+}
+
+#discography {
+  text-align: center;
+}
+
+#dicography-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#dicography-container div {
+  max-width: 550px;
+  margin: 1rem;
+  padding: 2rem;
+  border: 2px solid #8f1425;
+}
+
+#dicography-container img {
+  max-width: 500px;
+  padding: 1rem;
+  float: left;
+}
+
+#description {
+  float: left;
+}
+
+.post-container {
+  text-align: center;
+}
+
+.article img {
+  margin-left: 300px;
+  max-width: 600px;
+}
+
+/*FOOTER*/
+#footer {
+  margin-top: 5rem;
+  text-align: center;
+  clear: both;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin: 2rem;
+  padding-right: 1rem;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: var(--color-alt); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/*MEDIAQUERY*/
+@media screen and (max-width: 2505px) {
+  #main {
+    margin: 0 600px 0 600px;
+  }
+}
+
+@media screen and (max-width: 2270px) {
+  #main {
+    margin: 0 400px 0 400px;
+  }
+}
+
+@media screen and (max-width: 1854px) {
+  #main {
+    margin: 0 300px 0 300px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  #main {
+    margin: 0 250px 0 250px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #main {
+    margin: 0 100px 0 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-links li {
+    margin: 1rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .footer-links li {
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    padding-right: 0.35rem;
+  }
+
+  #dicography-container div {
+    max-width: 250px;
+    margin: 1rem;
+  }
+
+  #dicography-container img {
+    max-width: 200px;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #social-media {
+    clear: both;
+    width: 50%;
+  }
+
+  #news {
+    width: 100%;
+  }
+
+  #tour {
+    width: 100%;
+  }
+
+  #past-tours {
+    width: 100%;
+    clear: both;
+  }
+
+  #band img {
+    max-height: 250px;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .footer-links li {
+    margin: 0.2rem;
+    margin-bottom: 1rem;
+    padding-right: 0.35rem;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+}
+/*SWIPER*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-one {
+  background-image: url(./images/Band.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.slide-two {
+  background-image: url(./images/slide-logo.png);
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.slide-three {
+  background-image: url(./images/products.png);
+  background-attachment: fixed;
+  background-size: cover;
+}

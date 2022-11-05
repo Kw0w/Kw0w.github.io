@@ -1,0 +1,85 @@
+/*VARIABLES*/
+:root {
+  --background-color: #2e3440;
+  --bacground-color-alt: #2a313e;
+  --font-color: #eceff4;
+  --hover-color: #515d74;
+  --border-color: #4c566a;
+  --border-color-alt: #657491;
+  --input-background-color: #3b4252;
+}
+
+/*BODY*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: var(--font-color);
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*MAIN*/
+#main {
+  text-align: center;
+  background-color: var(--bacground-color-alt);
+  border: 0.5rem solid var(--border-color);
+  border-radius: 2rem;
+}
+
+#form {
+  padding: 25px;
+}
+
+#form input {
+  color: var(--font-color);
+  border: 5px solid var(--border-color);
+  border-radius: 1rem;
+  background-color: var(--input-background-color);
+  text-align: center;
+  margin: 1rem;
+}
+
+#form input:hover {
+  background-color: var(--hover-color);
+  border: 5px solid var(--border-color-alt);
+  transition: background-color 3s;
+  transition: border 2s;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+#btnSubmit,
+#btnReset {
+  color: var(--font-color);
+  border: 5px solid var(--border-color);
+  border-radius: 1rem;
+  background-color: var(--input-background-color);
+  text-align: center;
+  margin: 5px;
+}
+
+#btnSubmit:hover,
+#btnReset:hover {
+  background-color: var(--hover-color);
+  border: 5px solid var(--border-color-alt);
+  transition: border 2s;
+}
+
+#result {
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*MEDIAQUERY*/

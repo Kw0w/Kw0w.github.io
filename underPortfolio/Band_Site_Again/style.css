@@ -1,0 +1,453 @@
+:root {
+  --primary-background-color: #2e3440;
+  --secondary-background-color: #434c5e;
+  --color-alt: #3b4252;
+  --font-color: whitesmoke;
+}
+/*BODY*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: var(--font-color);
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+/*NAVBAR*/
+#header {
+  background-color: var(--color-alt);
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu li {
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding-right: 3rem;
+}
+
+.menu a {
+  color: var(--font-color);
+  text-decoration: none;
+  transition: border 2s;
+}
+
+.menu a:hover {
+  border-bottom: 5px solid var(--font-color);
+}
+
+/*NAVBAR MOBILE*/
+.hamburger {
+  position: relative;
+  z-index: 100;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.hamburger,
+.close-icon {
+  display: none;
+}
+
+@media screen and (max-width: 785px) {
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 4rem;
+    left: 1rem;
+    padding: 1px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background: none;
+  }
+
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: var(--primary-background-color);
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+}
+
+.fa-bars,
+.fa-xmark {
+  color: whitesmoke;
+}
+
+/*MAIN*/
+#main,
+#main-two {
+  /* padding-top: 200px; */
+  background-color: var(--primary-background-color);
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#main-two {
+  padding-top: 200px;
+}
+
+#main section {
+  margin-right: 500px;
+  margin-left: 500px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#about {
+  background-color: var(--primary-background-color);
+  background-image: url(./images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+.info {
+  padding: 300px 500px 100px 500px;
+  text-align: center;
+}
+
+.band-container {
+  margin: 25px 100px 25px 100px;
+}
+
+.band-container img {
+  height: 250px;
+}
+
+#tour {
+  padding-bottom: 4rem;
+}
+
+#tour li {
+  margin: 1rem;
+}
+
+#tour a {
+  text-decoration: none;
+  color: var(--font-color);
+  transition: border 12s;
+}
+
+#tour a:hover {
+  padding-bottom: 5px;
+  border-bottom: 5px solid var(--font-color);
+}
+
+#socials {
+  margin-top: 1.5rem;
+  background-color: var(--primary-background-color);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.socials-container i {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.socials-container a {
+  color: var(--font-color);
+}
+
+#band-biography a {
+  text-decoration: none;
+  color: var(--font-color);
+  transition: border 2s;
+}
+
+#band-biography a:hover {
+  border-bottom: 2px solid var(--font-color);
+}
+
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.shop-container img {
+  width: 80%;
+  max-width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 3px solid var(--secondary-background-color);
+  transition: border 1s;
+}
+
+.shop-container img:hover {
+  border: 3px solid whitesmoke;
+  cursor: pointer;
+}
+
+.shop-container::after {
+  content: "";
+  width: 350px;
+}
+
+#shop-btn a {
+  color: var(--font-color);
+  text-decoration: none;
+  margin: 1rem;
+  padding-bottom: 3px;
+  transition: border 2s;
+}
+
+#shop-btn a:hover {
+  border-bottom: 2px solid whitesmoke;
+}
+
+#btn {
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--color-alt);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#biography-section {
+  margin-left: 500px;
+  margin-right: 500px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 100px 200px 100px 200px;
+}
+
+#biography-section img {
+  max-width: 650px;
+}
+
+/*FOOTER*/
+#footer {
+  background-color: var(--color-alt);
+  text-align: center;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#footer p {
+  padding: 0.5rem;
+}
+
+#footer a {
+  color: var(--font-color);
+  text-decoration: none;
+  transition: border 15s;
+}
+
+#footer a:hover {
+  border-bottom: 3px solid var(--font-color);
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: var(--color-alt); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/*MEDIAQUERY*/
+@media screen and (max-width: 2300px) {
+  #biography-section {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 200px;
+  }
+}
+
+@media screen and (max-width: 2200px) {
+  #biography-section {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 150px;
+  }
+
+  #main section {
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  #main section {
+    margin-right: 300px;
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  #biography-section {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 150px;
+  }
+
+  .info {
+    padding: 200px 300px 100px 300px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  #main section {
+    margin-right: 300px;
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #biography-section {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 100px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #main section {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #biography-section {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 50px;
+  }
+
+  #main section {
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+
+  .info {
+    padding: 200px 200px 100px 200px;
+  }
+
+  #biography-section img {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main section {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .info {
+    padding: 200px 200px 100px 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .info {
+    padding: 200px 100px 100px 100px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #main section {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  #biography-section img {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #main section {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #biography-section img {
+    max-width: 150px;
+  }
+
+  @media screen and (max-width: 768px) {
+    #main section {
+      margin-right: 25px;
+      margin-left: 25px;
+    }
+
+    .info {
+      padding: 200px 5px 100px 5px;
+    }
+  }
+}
+
+/*REVEAL*/
+.reveal {
+  padding-top: 100px;
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
