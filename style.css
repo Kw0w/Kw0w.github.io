@@ -253,3 +253,7 @@ li {
   transform: translateY(0);
   opacity: 1;
 }
+
+/* #hidden-next-site {
+  display: none;
+} */
