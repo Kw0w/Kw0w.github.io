@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Nunito:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <header id="header">
+      <navbar id="navbar">
+        <ul class="menu">
+          <li class="menu-element"><a href="#home">HOME</a></li>
+          <li class="menu-element"><a href="#about">ABOUT</a></li>
+          <li class="menu-element"><a href="#whats-new">WHAT'S NEW</a></li>
+          <li class="menu-element"><a href="#contact">CONTACT</a></li>
+        </ul>
+        <button class="hamburger">
+          <i class="fa-solid fa-bars fa-2xl menu-icon"></i>
+          <i class="fa-solid fa-xmark fa-2xl close-icon"></i>
+        </button>
+      </navbar>
+    </header>
+    <!--MAIN-->
+    <main id="main">
+      <section id="home">
+        <div id="box">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide-one">
+                <img src="./Untitled-1.jpg" alt="placeholder" />
+              </div>
+              <div class="swiper-slide slide-two">
+                <img src="./Untitled-1.jpg" alt="placeholder" />
+              </div>
+              <div class="swiper-slide slide-three">
+                <img src="./Untitled-1.jpg" alt="placeholder" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <!---->
+        </div>
+      </section>
+      <section id="about">
+        <h2 class="section-title">About</h2>
+        <div class="info-box">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
+            voluptate dolore commodi, iusto a consequatur reprehenderit
+            perspiciatis illum hic nihil non beatae, architecto id quaerat ullam
+            natus? Officia nemo tempora ipsa reiciendis labore reprehenderit
+            accusantium, nostrum odio quidem quia, cum quae dolorem fuga,
+            architecto id similique! Quia quae quidem nulla blanditiis possimus
+            magnam facere exercitationem, eos suscipit voluptas, reprehenderit
+            numquam recusandae asperiores ipsam repellendus accusamus optio!
+            Quas laboriosam deserunt reprehenderit ut reiciendis quibusdam
+            ducimus repellat accusamus labore illo hic, voluptates voluptas qui
+            minus neque optio, pariatur corporis. Eum mollitia a necessitatibus
+            fuga reprehenderit vitae voluptates consectetur non quo
+            voluptatibus, molestias tempore quas rem harum ab velit sed dolorum
+            quos labore nemo ratione iste recusandae! Provident explicabo
+            perferendis atque doloribus cumque nulla aspernatur, velit error.
+          </p>
+        </div>
+      </section>
+      <section id="whats-new">
+        <h2 class="section-title">What's new</h2>
+        <div class="info-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            exercitationem deleniti, aperiam corporis eveniet quidem quibusdam
+            harum fuga delectus repudiandae sit minus debitis, odio laboriosam
+            soluta consequatur dolores obcaecati suscipit, nostrum voluptates
+            ducimus nihil amet saepe nobis. Odio, blanditiis quos numquam
+            expedita asperiores illo, mollitia tempore, officiis est vel hic.
+          </p>
+        </div>
+        <br />
+        <button class="myButton"><a href="http://">Check More</a></button>
+      </section>
+      <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="info-box">
+          <p>
+            <a href="mailto:example@example.com">Email: example@example.com</a>
+          </p>
+          <br />
+          <p><a href="tel:+0999999999"></a>Phone number: +0 999999999</p>
+        </div>
+      </section>
+    </main>
+    <!--FOOTER-->
+    <footer id="footer">
+      <h3>Follow Us</h3>
+      <ul class="footer-links">
+        <li class="footer-link-element">
+          <a href="http://"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+        </li>
+        <li class="footer-link-element">
+          <a href="http://"><i class="fa-brands fa-facebook fa-2x"></i></a>
+        </li>
+        <li class="footer-link-element">
+          <a href="http://"><i class="fa-brands fa-twitter fa-2x"></i></a>
+        </li>
+        <li class="footer-link-element">
+          <a href="http://"><i class="fa-brands fa-instagram fa-2x"></i></a>
+        </li>
+        <li class="footer-link-element">
+          <a href="http://"><i class="fa-brands fa-mastodon fa-2x"></i></a>
+        </li>
+      </ul>
+      <p>&copy;Lorem 2022</p>
+    </footer>
+    <!--SCRIPTS-->
+    <script src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a007289085.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--SWIPER-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
